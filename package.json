@@ -1,17 +1,13 @@
 {
-  "name": "inverso",
+  "name": "restaurant",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11 ",
-    "@cloudinary/react": "^1.11.2",
-    "@cloudinary/url-gen": "^1.12.0",
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "cloudinary-core": "^2.13.0",
-    "dotenv": "^16.3.1",
     "framer-motion": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

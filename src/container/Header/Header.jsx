@@ -4,18 +4,23 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Header.css';
 
+
+
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
-      <SubHeading title="Satisfy Your Cravings" />
-      <h1 className="app__header-h1">Unleash Your Senses</h1>
-      <p className="p__opensans" style={{ margin: '2rem 0' }}>Step into the lively atmosphere of AM | PM and experience the ultimate dining and nightlife destination. Our vibrant spot boasts an array of delectable dishes, handcrafted cocktails, and live entertainment that will keep you coming back for more. 
-      <span className="p__opensans wrap" style={{ margin: '0.6rem 0', display: 'flex', color: '#FDD36A', fontWeight: '600' }}>Free Goat meat! 🍖. &nbsp; Every friday and saturday from 6pm to 9pm </span>
+      <SubHeading title="Inverso es Italianidad en estado puro! " />
+      <h1 className="app__header-h1">¿Que es Inverso?</h1>
+      <p className="p__opensans" style={{ margin: '2rem 0' }}>El encuentro entre Tapeo Italiano y Cocktails d’Autor da vida a Inverso. Un proyecto que nace del deseo de dar a conocer una Italia diferente, joven, moderna pero siempre auténtica. Lo haremos provocando, desafiando y jugando con los clichés del italiano.
+      <span className="p__opensans wrap" style={{ margin: '0.6rem 0', display: 'flex', color: '#FDD36A', fontWeight: '600' }}>Vienes a probar nuestra carta demoniaca 👹 </span>
       </p>
-      <button type="button" className="custom__button"><a href="#menu">Explore Menu</a></button>
+      <button type="button" className="custom__button"><a href="#menu">Descubres nuestra carta</a></button>
     </div>
 
-    <div className="app__wrapper_img">
+    <div data-aos="fade-down"
+         data-aos-delay="700"
+     data-aos-easing="linear"
+     data-aos-duration="1500" className="app__wrapper_img">
       <img src={images.welcome} alt="header_img" />
     </div>
   </div>

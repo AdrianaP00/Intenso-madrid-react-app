@@ -8,8 +8,7 @@
 }
 
 .app__aboutus-overlay img {
-    width: 431px;
-    height: 415px;
+    width: 260px;
     z-index: 3;
     align-self: center;
     padding-right: 2%;
@@ -53,10 +52,12 @@
 .app__aboutus-content_history p {
     margin: 2rem 0;
     color: var(--color-grey);
+    text-align: center;
 }
 
 @media screen and (min-width: 2000px) {
     .app__aboutus-content_knife img {
+       
         height: 1110px;
     }
 
@@ -152,12 +153,10 @@
 }
 @media screen and (max-width: 500px) {
     .app__aboutus-overlay img {
-        width: 87%;
-        height: 430px;
+        width: 31%;
+        height: 22.5%;
         margin-left: 1%;
         align-self: center;
-    
-    }
-    
-    
+        margin-top: -70%;
+    }    
 }

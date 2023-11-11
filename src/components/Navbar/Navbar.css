@@ -15,7 +15,7 @@
 }
 
 .app__navbar-logo img {
-    width: 150px;
+    width: 40px;
 }
 
 .app__navbar-links {
@@ -128,6 +128,6 @@
     }
 
     .app__navbar-logo img {
-        width: 110px;
+        width: 40px;
     }
 }

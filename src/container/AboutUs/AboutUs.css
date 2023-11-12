@@ -8,11 +8,10 @@
 }
 
 .app__aboutus-overlay img {
-    width: 19%;
-    height: 25.5%;
+    height: 15%;
     margin-left: 1%;
     align-self: center;
-    margin-top: -50%;
+    margin-top: -35%;
 }
 
 .app__aboutus-content {
@@ -78,18 +77,12 @@
 
 @media screen and (max-width: 650px) {
     .app__aboutus-overlay img {
-        width: 80%;
-        height: 440px;
         padding-right: 5%;
     }
-    
-    
 }
 
 @media screen and (max-width: 500px) {
     .app__aboutus-overlay img {
-        width: 31%;
-        height: 22.5%;
         margin-left: 1%;
         align-self: center;
         margin-top: -70%;
@@ -99,12 +92,9 @@
 
 @media screen and (max-width: 400px) {
     .app__aboutus-overlay img {
-        width: 80%;
-        height: 420px;
-        padding-bottom: 40%;
-        margin-bottom: 50%;
-        align-self: center;
-
+        height: 10%;
+        margin-bottom: 90%;
+        margin-top: -70%;
     }
 }
 
@@ -119,8 +109,6 @@
     }
 
     .app__aboutus-overlay img {
-        width: 83%;
-        height: 420px;
         align-self: center;
         margin-top: 50%;
     }
@@ -128,8 +116,6 @@
 
 @media screen and (max-width: 250px) {
     .app__aboutus-overlay img {
-        width: 80%;
-        height: 320px;
         padding: auto;
         align-self: center;
     }

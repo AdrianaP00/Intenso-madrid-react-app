@@ -19,10 +19,10 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 
-const welcome = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216798/inverso-madrid/egjlt9fq2ip0fktroxhu.jpg"
+const welcome = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699826071/inverso-madrid/BURRATA_D_INVERNO_srjda2.jpg"
 const gericht = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699294729/inverso-madrid/opyrhsluodn9kflwcpex.webp"
 const G = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699737731/inverso-madrid/37859666-cee8-49fe-bcab-e7de7b8b0d56_qytihx.png"
-const knife = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699735196/inverso-madrid/1b84ab18-5adf-4c92-87c2-ee9e1875b79a_uomfev.png"
+const knife = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699742194/inverso-madrid/6dfac725-1081-4130-9912-6c9186914a93_wd2nva.png"
 
 const images = {
   bg ,

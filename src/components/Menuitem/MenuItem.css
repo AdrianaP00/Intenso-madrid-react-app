@@ -24,6 +24,10 @@
     align-content: flex-start;
 }
 
+.app__menuitem-sub img {
+    width: 80%;
+}
+
 .app__menuitem-alergenics img {
     object-fit: contain;
     height: 20px;

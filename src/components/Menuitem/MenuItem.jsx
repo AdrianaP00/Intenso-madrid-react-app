@@ -10,15 +10,13 @@ const getTagsImg = (key, alergenics) =>
 
 const MenuItem = ({ key, name, description, img, price, tags, alergenics }) => (
   <div className="app__menuitem ">
-
-    {img && (
-      <div className="app__menuitem-sub">
-          {img}
-      </div>
-    )}
-
     <div className="app__menuitem-head">
       <div className="app__menuitem-name">
+        {img && (
+          <div className="app__menuitem-sub">
+            <img id={key} src={img} alt={name} />
+          </div>
+        )}
         <p className="p__cormorant" style={{ color: "#DCCA87" }}>
           {name}
         </p>
@@ -44,7 +42,9 @@ const MenuItem = ({ key, name, description, img, price, tags, alergenics }) => (
     )}
 
     {alergenics && (
-      <div className="app__menuitem-alergenics" style={{ color: "#AAAAAA" }}>{getTagsImg(key, alergenics)}</div>
+      <div className="app__menuitem-alergenics" style={{ color: "#AAAAAA" }}>
+        {getTagsImg(key, alergenics)}
+      </div>
     )}
   </div>
 );

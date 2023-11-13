@@ -14,7 +14,7 @@ const Header = () => (
       <p className="p__opensans" style={{ margin: '2rem 0' }}>El encuentro entre Tapeo Italiano y Cocktails d’Autor da vida a Inverso. Un proyecto que nace del deseo de dar a conocer una Italia diferente, joven, moderna pero siempre auténtica. Lo haremos provocando, desafiando y jugando con los clichés del italiano.
       <span className="p__opensans wrap" style={{ margin: '0.6rem 0', display: 'flex', color: '#FDD36A', fontWeight: '600' }}>Vienes a probar nuestra carta demoniaca? 👹 </span>
       </p>
-      <button type="button" className="custom__button"><a href="#menu">Descubres nuestra carta</a></button>
+      <button type="button" className="custom__button"><a href="https://www.localismart.it/intensomadrid/prenota">Reserva tu mesa!</a></button>
     </div>
 
     <div data-aos="fade-down"

@@ -17,7 +17,7 @@ const Newsletter = () => {
     }, 'ngs9p7jI_0GhMhbS9')
       .then((result) => {
         console.log(result.text);
-        alert('Thank you for subscribing!');
+        alert('Gracias por contactar!');
         setEmail('');
       })
       .catch((error) => {
@@ -29,9 +29,9 @@ const Newsletter = () => {
   return (
     <div className="app__newsletter">
       <div className="app__newsletter-heading">
-        <SubHeading title="Newsletter" />
-        <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
-        <p className="p__opensans">And never miss the latest updates!</p>
+        <SubHeading title="Contact box" />
+        <h1 className="headtext__cormorant">Contactanos tramite correo</h1>
+        <p className="p__opensans">para organizar tu mejores eventos</p>
       </div>
       <div className="app__newsletter-input flex__center">
         <form ref={formRef} onSubmit={handleSubmit}>

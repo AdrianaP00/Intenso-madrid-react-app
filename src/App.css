@@ -72,6 +72,7 @@
 
 
 .p__cormorant {
+  margin-top: 6%;
   font-family: var(--font-base);
   color: var(--color-white);
   font-weight: 700;

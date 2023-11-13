@@ -37,11 +37,11 @@ const Newsletter = () => {
         <form ref={formRef} onSubmit={handleSubmit}>
           <input
             type="email"
-            placeholder="Enter your email address"
+            placeholder="Inserta tu correo"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <button type="submit" className="custom__button">Subscribe</button>
+          <button type="submit" className="custom__button">Subscrivete</button>
         </form>
       </div>
     </div>

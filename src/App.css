@@ -44,7 +44,7 @@
 }
 
 .app__wrapper_img-reverse {
-  justify-content: flex-start;
+  justify-content: center;
   margin-right: 2rem;
 }
 

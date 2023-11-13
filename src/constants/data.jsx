@@ -61,7 +61,7 @@ const tapas = {
       name: "Fresella",
       description: "Aquí la Tostas se llama Fresella!",
       tags: "gluten, champignon",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699832745/inverso-madrid/FRESELLA_chidue.jpg",
+      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/FRESELLA_qox7og.jpg",
       alergenics: ["gluten"],
       price: 12,
     },

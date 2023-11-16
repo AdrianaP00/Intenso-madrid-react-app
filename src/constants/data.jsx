@@ -134,31 +134,31 @@ const cocktails = [
   {
     title: "Lujuriosos ‘Apasionadamente fresco ‘",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/5a305a53f28235196d9496e00c820562_xwzowb.jpg",
     tags: "Vodka | Jarabe de Melocotón | Vainilla | Lemonada",
   },
   {
     title: "Golosos ‘Excesivamente bueno’",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Golosos_hzti9b.jpg",
     tags: "Ron añejo | Licor 43 | Licor de café | Chocolate Blanco | Nata",
   },
   {
     title: "Avaros 'No querrás compartirlo con nadie'",
     price: "11",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138287/Avaros_agkmnf.jpg",
     tags: "Gin | Saint Germain | Jarabe casero de Pepino | Limon | Prosecco",
   },
   {
     title: "Iracundos ‘Definitivamente Spicy’",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Iracundos_crj6qa.jpg",
     tags: "Tequila infundida con chile | Agave | Limon | Campari",
   },
   {
     title: "Herejes '¿Quién dice que la verdad es una?'",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Herejes_molayo.jpg",
     tags: "Maraschino | Vermouth Extra Dry | Bitter Blanco",
   },
   {
@@ -170,13 +170,13 @@ const cocktails = [
   {
     title: "Traidores 'Traidor*,Mentiros*.. otras cualidades?!'",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Traidores_xe8iw2.jpg",
     tags: "Cachaça | Limon | Cordial de Lapsang Souchong y Jengibre",
   },
   {
     title:"Lucifer 'Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?'",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/6c2062864a7cb81b2b79f14605838096_v2tomb.jpg",
     tags: "Tequila de Miso Rojo | Vino Tinto | Jarabe casero | Limon",
   },
 ];

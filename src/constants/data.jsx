@@ -134,42 +134,49 @@ const cocktails = [
   {
     title: "Lujuriosos ‘Apasionadamente fresco ‘",
     price: "10",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
     tags: "Vodka | Jarabe de Melocotón | Vainilla | Lemonada",
   },
   {
     title: "Golosos ‘Excesivamente bueno’",
     price: "10",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
     tags: "Ron añejo | Licor 43 | Licor de café | Chocolate Blanco | Nata",
   },
   {
     title: "Avaros 'No querrás compartirlo con nadie'",
     price: "11",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
     tags: "Gin | Saint Germain | Jarabe casero de Pepino | Limon | Prosecco",
   },
   {
     title: "Iracundos ‘Definitivamente Spicy’",
     price: "10",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
     tags: "Tequila infundida con chile | Agave | Limon | Campari",
   },
   {
     title: "Herejes '¿Quién dice que la verdad es una?'",
     price: "10",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
     tags: "Maraschino | Vermouth Extra Dry | Bitter Blanco",
   },
   {
     title: "Violentos ‘Sabemos que en el fondo eres un tierno’",
     price: "11",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138289/Violentos_ozadnp.jpg",
     tags: "Whiskey | Frangelico | Jarabe casero | Lemonada | Angostura",
   },
   {
     title: "Traidores 'Traidor*,Mentiros*.. otras cualidades?!'",
     price: "10",
-    tags: "Cachaca | Limon | Cordial de Lapsang Souchong y Jengibre",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+    tags: "Cachaça | Limon | Cordial de Lapsang Souchong y Jengibre",
   },
   {
-    title:
-      "Lucifer 'Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?'",
+    title:"Lucifer 'Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?'",
     price: "10",
+    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
     tags: "Tequila de Miso Rojo | Vino Tinto | Jarabe casero | Limon",
   },
 ];

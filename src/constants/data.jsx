@@ -23,7 +23,7 @@ const montanare = {
       description:
         "No sé si lo has entendido, pero ¡Lo frito siempre sabe mejor!",
       tags: "con Salsa de Trufa",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699832744/inverso-madrid/PIZZA_CON_TRUFA_LA_PIJA_klrjk3.jpg",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138199/d9aa8b0abf49c6632dd76b9b96e0398a_mcivoy.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 15,
     },

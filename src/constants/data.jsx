@@ -36,7 +36,6 @@ const tapas = {
     {
       name: "Tortilla de Pasta",
       description: "Sorry Spain, but ‘With Pasta is Better'",
-      tags: "gluten, carne, queso, huevo, pimienta negra",
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699832744/inverso-madrid/TORTILLA_DE_PASTA_uxkoac.jpg",
       alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
       price: 9,
@@ -44,7 +43,6 @@ const tapas = {
     {
       name: "Polpette",
       description: "No! no como las hacía tu abuela",
-      tags: "queso, gluten, carne, ajo, pimienta negra",
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-23_lsh91x.jpg",
       alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
       price: 13,
@@ -52,7 +50,6 @@ const tapas = {
     {
       name: "Burrata d’Inverno",
       description: "Chorreada 100% Italiana",
-      tags: "queso, nueces",
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699826071/inverso-madrid/BURRATA_D_INVERNO_srjda2.jpg",
       alergenics: ["lactosa", "frutos-secos"],
       price: 14,
@@ -60,7 +57,6 @@ const tapas = {
     {
       name: "Fresella",
       description: "Aquí la Tostas se llama Fresella!",
-      tags: "gluten, champignon",
       img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/FRESELLA_qox7og.jpg",
       alergenics: ["gluten"],
       price: 12,
@@ -68,7 +64,6 @@ const tapas = {
     {
       name: "Patata Cacio&Pancetta",
       description: "Frita, Guarra .. ¿qué más quieres?!",
-      tags: "queso, cerdo, pimienta negra",
       img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699832743/inverso-madrid/PATATA_CACIO_PANCETTA_ekep7q.webp",
       alergenics: ["gluten", "lactosa", "cerdo"],
       price: 8,
@@ -76,7 +71,6 @@ const tapas = {
     {
       name: "Sepia PoP",
       description: "Mojas y Muerdes",
-      tags: "pescado",
       img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699216799/inverso-madrid/sm8pydqnjgjyskkrqpuj.jpg",
       alergenics: ["pescado"],
       price: 18,
@@ -84,7 +78,6 @@ const tapas = {
     {
       name: "Marenna 3.0",
       description: "Fatt na Marenn ca’ Murtadell’",
-      tags: "cerdo, pimiento verde",
       img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/LA_MARENNA_3.0_ldcyvb.jpg",
       alergenics: ["cerdo"],
       price: 14,
@@ -92,7 +85,6 @@ const tapas = {
     {
       name: "Pic Nic (2pax)",
       description: "Ven al parque con nosotros",
-      tags: "carne, queso",
       img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833645/inverso-madrid/comida/PIC_NIC_eizj3t.webp",
       alergenics: ["cerdo", "lactosa"],
       price: 26,
@@ -106,7 +98,6 @@ const dolci = {
     {
       name: "TiramiSpritz",
       description: "El único tiramisú borracho de Madrid",
-      tags: "alcohol, huevo, queso, gluten",
       img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/TIRAMISPRITZ_b7tecy.jpg",
       alergenics: ["alcool", "huevo", "lactosa", "gluten"],
       price: 7,
@@ -115,14 +106,12 @@ const dolci = {
       name: "U’ Siciliano",
       description: "Crujiente y Goloso",
       img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
-      tags: "gluten, queso",
       alergenics: ["gluten", "lactosa"],
       price: 7,
     },
     {
       name: "Affogato al Caffè",
       description: "Dulce, Italiano, Intenso",
-      tags: "queso, gluten",
       img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/Affogato_al_Caff%C3%A8_2_g7yrxj.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 7,
@@ -135,48 +124,56 @@ const cocktails = [
     title: "Lujuriosos ‘Apasionadamente fresco ‘",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/5a305a53f28235196d9496e00c820562_xwzowb.jpg",
+    description:"‘Apasionadamente fresco ‘",
     tags: "Vodka | Jarabe de Melocotón | Vainilla | Lemonada",
   },
   {
     title: "Golosos ‘Excesivamente bueno’",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Golosos_hzti9b.jpg",
+    description:"‘Excesivamente bueno’",
     tags: "Ron añejo | Licor 43 | Licor de café | Chocolate Blanco | Nata",
   },
   {
     title: "Avaros 'No querrás compartirlo con nadie'",
     price: "11",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138287/Avaros_agkmnf.jpg",
+    description:"'No querrás compartirlo con nadie'",
     tags: "Gin | Saint Germain | Jarabe casero de Pepino | Limon | Prosecco",
   },
   {
     title: "Iracundos ‘Definitivamente Spicy’",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Iracundos_crj6qa.jpg",
+    description:" ‘Definitivamente Spicy’",
     tags: "Tequila infundida con chile | Agave | Limon | Campari",
   },
   {
-    title: "Herejes '¿Quién dice que la verdad es una?'",
+    title: "Herejes",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Herejes_molayo.jpg",
+    description:"‘¿Quién dice que la verdad es una?‘",
     tags: "Maraschino | Vermouth Extra Dry | Bitter Blanco",
   },
   {
-    title: "Violentos ‘Sabemos que en el fondo eres un tierno’",
+    title: "Violentos",
     price: "11",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138289/Violentos_ozadnp.jpg",
+    description:"‘Sabemos que en el fondo eres un tierno‘",
     tags: "Whiskey | Frangelico | Jarabe casero | Lemonada | Angostura",
   },
   {
     title: "Traidores 'Traidor*,Mentiros*.. otras cualidades?!'",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Traidores_xe8iw2.jpg",
+    description:"‘Traidor*,Mentiros*.. otras cualidades?!‘",
     tags: "Cachaça | Limon | Cordial de Lapsang Souchong y Jengibre",
   },
   {
-    title:"Lucifer 'Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?'",
+    title:"Lucifer",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/6c2062864a7cb81b2b79f14605838096_v2tomb.jpg",
+    description:"‘Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?‘",
     tags: "Tequila de Miso Rojo | Vino Tinto | Jarabe casero | Limon",
   },
 ];

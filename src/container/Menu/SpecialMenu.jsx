@@ -86,6 +86,7 @@ const SpecialMenu = () => (
               name={cocktail.title}
               price={cocktail.price}
               img={cocktail.img}
+              description={cocktail.description}
               tags={cocktail.tags}
             />
           ))}

@@ -1,7 +1,6 @@
 .app__specialMenu {
     flex-direction: column;
-    background-image: url("https://res.cloudinary.com/dlybwinmd/image/upload/v1700215949/9bf17f0f3202df9641913d8e7651763b_wcrljc.jpg");
-    width: 100%;
+    background: #0A0A0A;
 }
 
 .app__specialMenu-title {

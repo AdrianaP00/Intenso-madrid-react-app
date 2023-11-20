@@ -4,13 +4,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;   
-  background-image: 
-  url("https://res.cloudinary.com/dlybwinmd/image/upload/v1700481473/98226b8a-b058-4980-8912-cb58e784d3d3_ignmp6.png");
-  background-image:  linear-gradient(hsla(0, 0%, 0%, 0.5), 90%, black),
-  url("https://res.cloudinary.com/dlybwinmd/image/upload/v1700481473/98226b8a-b058-4980-8912-cb58e784d3d3_ignmp6.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--color-black);
 }
 
 .app__specialMenu-title {
@@ -33,9 +27,13 @@
   font-size: 45px;
   line-height: 58.5px;
   letter-spacing: 0.04em;
-  color: var(--color-white);
+  color: var(--color-golden);
 }
-
+.flex__start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .app__specialMenu-menu_wine,
 .app__specialMenu-menu_cocktails {
   flex: 1;

@@ -77,8 +77,14 @@ const SpecialMenu = () => (
         </div>
       )}
 
-      <div className="app__specialMenu-menu_cocktails  flex__center">
+      <div className="app__specialMenu-menu_cocktails  flex__start">
         <p className="app__specialMenu-menu_heading">Cocktails</p>
+        <p className="app__specialMenu-menu_heading">
+          ’La senda que lleva al Paraíso
+        </p>
+        <p className="app__specialMenu-menu_heading">
+          comienza en el Infierno’.
+        </p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem

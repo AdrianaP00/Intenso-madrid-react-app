@@ -14,7 +14,7 @@ const Navbar = () => {
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#menu">Carta</a></li>
+        <li className="p__opensans"><a href="#carta">Carta</a></li>
         <li className="p__opensans"><a href="https://www.localismart.it/intensomadrid/prenota">Reserva</a></li>
       </ul>
        {/* <div className="app__navbar-login">
@@ -30,7 +30,7 @@ const Navbar = () => {
             <ul className="app__navbar-smallscreen_links">
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
               <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-              <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
+              <li><a href="#carta" onClick={() => setToggleMenu(false)}>Carta</a></li>
               <li><a href="https://www.localismart.it/intensomadrid/prenota" onClick={() => setToggleMenu(false)}>Reserva una mesa</a></li>
             </ul>
           </div>

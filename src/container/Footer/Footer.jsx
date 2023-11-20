@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="app__footer-links_work">
           <h1 className="app__footer-headtext">Nuestros orarios</h1>
           <p className="p__opensans">Martes-Miércoles-Jueves: </p>
-          <p className="p__opensans"> 15:00 - 00:20 </p>
+          <p className="p__opensans"> 15:00 - 00:30 </p>
           <p className="p__opensans">Viernes - Sábado: </p>
           <p className="p__opensans"> 13:30 - 01:30 </p>
           <p className="p__opensans"> Domingo: </p>
@@ -43,6 +43,7 @@ const Footer = () => {
 
       <div className="footer__copyright">
         <p className="p__opensans">inverso&nbsp;@2023  All Rights reserved.</p>
+        <p className="p__opensans">Created By <a href='https://github.com/AdrianaP00'>AdrianaP00.</a></p>
       </div>
       
       <div className="app">

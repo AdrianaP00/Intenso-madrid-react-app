@@ -75,7 +75,6 @@ nav{
     height: 100vh;
     background: var(--color-black);
     transition: .5s ease;
-
     flex-direction: column;
     z-index: 5;
 }

@@ -1,9 +1,10 @@
 .app__specialMenu {
   flex-direction: column;
-  background: #0a0a0a;
+  background: linear-gradient(to right,#000d 25%,#000 50%),var(--image-header);;
+  background-image: url("https://res.cloudinary.com/dlybwinmd/image/upload/v1700480034/c610e855-1dc2-448f-9337-cb9e164ac85d_sc2mkb.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .app__specialMenu-title {

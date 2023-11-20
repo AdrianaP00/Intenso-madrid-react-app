@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="app__footer-links_contact">
           <h1 className="app__footer-headtext">Contact Us</h1>
           <p className="p__opensans"><FiMapPin />C. de Menorca, 19, 28009 Madrid</p>
-          <p className="p__opensans">+254 700-116-190</p>
+          <p className="p__opensans">+34 604827013</p>
       </div>
 
         <div className="app__footer-links_logo">
@@ -31,10 +31,12 @@ const Footer = () => {
 
         <div className="app__footer-links_work">
           <h1 className="app__footer-headtext">Nuestros orarios</h1>
-          <p className="p__opensans">Miercoles-Domingo:</p>
-          <p className="p__opensans">01:30 pm - 1:00 am</p>
-          <p className="p__opensans">Lunes-Martes:</p>
-          <p className="p__opensans">Cerrado</p>
+          <p className="p__opensans">Martes-Miércoles-Jueves: </p>
+          <p className="p__opensans"> 15:00 - 00:20 </p>
+          <p className="p__opensans">Viernes - Sábado: </p>
+          <p className="p__opensans"> 13:30 - 01:30 </p>
+          <p className="p__opensans"> Domingo: </p>
+          <p className="p__opensans"> 13:30 - 20:00 </p>
         </div>
       </div>
 

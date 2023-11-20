@@ -121,28 +121,28 @@ const dolci = {
 
 const cocktails = [
   {
-    title: "Lujuriosos ‘Apasionadamente fresco ‘",
+    title: "Lujuriosos",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/5a305a53f28235196d9496e00c820562_xwzowb.jpg",
     description:"‘Apasionadamente fresco ‘",
     tags: "Vodka | Jarabe de Melocotón | Vainilla | Lemonada",
   },
   {
-    title: "Golosos ‘Excesivamente bueno’",
+    title: "Golosos",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Golosos_hzti9b.jpg",
     description:"‘Excesivamente bueno’",
     tags: "Ron añejo | Licor 43 | Licor de café | Chocolate Blanco | Nata",
   },
   {
-    title: "Avaros 'No querrás compartirlo con nadie'",
+    title: "Avaros",
     price: "11",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138287/Avaros_agkmnf.jpg",
     description:"'No querrás compartirlo con nadie'",
     tags: "Gin | Saint Germain | Jarabe casero de Pepino | Limon | Prosecco",
   },
   {
-    title: "Iracundos ‘Definitivamente Spicy’",
+    title: "Iracundos",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Iracundos_crj6qa.jpg",
     description:" ‘Definitivamente Spicy’",
@@ -163,7 +163,7 @@ const cocktails = [
     tags: "Whiskey | Frangelico | Jarabe casero | Lemonada | Angostura",
   },
   {
-    title: "Traidores 'Traidor*,Mentiros*.. otras cualidades?!'",
+    title: "Traidores",
     price: "10",
     img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Traidores_xe8iw2.jpg",
     description:"‘Traidor*,Mentiros*.. otras cualidades?!‘",

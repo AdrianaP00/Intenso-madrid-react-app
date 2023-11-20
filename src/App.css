@@ -9,11 +9,12 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
+  background: url("./assets/bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
+  z-index: 2;
 }
 
 .app__wrapper {
@@ -54,22 +55,20 @@
 
 .custom__button {
   background-color: var(--color-black);
-    color: var(--color-golden);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    margin-right: 10px;
-    -webkit-tap-highlight-color: transparent;
-    border-style: solid;
-    border-color: var(--color-golden);
-    width: -webkit-fill-available;
-    padding: 10px;
-    box-shadow: 0 0 1px var(--color-golden), 0 0 3px var(--color-golden), 0 0 3px var(--color-golden), 0 0 10px var(--color-golden)
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  margin-right: 10px;
+  -webkit-tap-highlight-color: transparent;
+  border-style: solid;
+  border-color: var(--color-golden);
+  width: -webkit-fill-available;
+  padding: 10px;
+  box-shadow: 0 0 1px var(--color-golden), 0 0 3px var(--color-golden),
+    0 0 3px var(--color-golden), 0 0 10px var(--color-golden);
 }
-
-
-
 
 .p__cormorant {
   margin-top: 6%;
@@ -78,13 +77,13 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: 'tnum' on, 'lnum' on;
+  font-feature-settings: "tnum" on, "lnum" on;
   line-height: 29.9px;
   font-size: 23px;
 }
 
 .p__cormorant:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .p__opensans {
@@ -160,7 +159,7 @@
   .section__padding {
     padding: 4rem 2rem;
   }
-  
+
   .p__cormorant {
     font-size: 21px;
   }

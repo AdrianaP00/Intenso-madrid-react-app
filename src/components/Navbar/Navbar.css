@@ -9,7 +9,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-
+    z-index: 1;
     padding: 1rem 2rem;
 }
 

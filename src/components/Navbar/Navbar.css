@@ -1,3 +1,8 @@
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
 .app__navbar {
     width: 100%;
     display: flex;
@@ -119,6 +124,7 @@
 }
 
 @media screen and (max-width: 650px) {
+    
     .app__navbar {
         padding: 1rem;
     }

@@ -14,7 +14,7 @@ const Navbar = () => {
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#carta">Carta</a></li>
+        <li className="p__opensans"><a href="#carta">carta</a></li>
         <li className="p__opensans"><a href="https://www.localismart.it/intensomadrid/prenota">Reserva</a></li>
       </ul>
        {/* <div className="app__navbar-login">
@@ -28,9 +28,11 @@ const Navbar = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
-              <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
-              <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-              <li><a href="#carta" onClick={() => setToggleMenu(false)}>Carta</a></li>
+              <li><a href="#cocktail" onClick={() => setToggleMenu(false)}>Cocktail</a></li>
+              <li><a href="#montanare" onClick={() => setToggleMenu(false)}>Montanare</a></li>
+              <li><a href="#tapa" onClick={() => setToggleMenu(false)}>Tapa</a></li>
+              <li><a href="#dolce" onClick={() => setToggleMenu(false)}>Dolce</a></li>
+
               <li><a href="https://www.localismart.it/intensomadrid/prenota" onClick={() => setToggleMenu(false)}>Reserva una mesa</a></li>
             </ul>
           </div>

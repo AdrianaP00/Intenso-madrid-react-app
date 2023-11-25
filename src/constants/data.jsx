@@ -178,29 +178,109 @@ const cocktails = [
   },
 ];
 
-const awards = [
+const bebidas = {
+  title: "Agua y Cerveza",
+  items: [
   {
-    imgUrl: images.award02,
-    title: "Our Choma",
-    subtitle: "Well-Seasoned Choma In Northern Bypass, Nairobi Area.",
+    title: "San Pellegrino 50 cl:",
+    price: " 2,50 €",
   },
   {
-    imgUrl: images.award01,
-    title: "Ample Parking",
-    subtitle: "Adequate Parking Space Available For Our Customers.",
+    title: "Acqua Panna 50 cl:",
+    price: " 2,50 €",
   },
-  {
-    imgUrl: images.award05,
-    title: "AA Hospitality",
-    subtitle: "Quality Customer Service And Great Security.",
-  },
-  {
-    imgUrl: images.award03,
-    title: "Reasonable Prices",
-    subtitle: "Have An Amazing Time Without Digging Too Deep.",
-  },
-];
 
-const data = { montanare, tapas, dolci, cocktails, awards };
+  {
+    title: "Moretti 33cl:",
+    price: " 3 €",
+  },
+  {
+    title: "Peroni 33cl:",
+    price: " 3 €",
+  },
+
+ 
+]};
+
+const VinosBlancos = {
+  title: "Vinos blancos",
+  items: [
+    {
+      title: "Grillo DOC Alagna Baglio Baiata, Sicilia:",
+      price: " 4,5 €/copa, 19 €/botella",
+    },
+    {
+      title: "Pinot Grigio DOC San Marco, Veneto:",
+      price: " 4,5 €/copa, 21 €/botella",
+    },
+    {
+      title: "Falanghina IGP Campostellato, Campania:",
+      price: " 4,5 €/copa, 23 €/botella",
+    },
+    {
+      title: "Chardonnay DOC Conti d'Arco, Trentino:",
+      price: " 5 €/copa, 25 €/botella",
+    },
+    {
+      title: "Passione & Sentimento IGT Pasqua, Veneto:",
+      price: " 5 €/copa, 28 €/botell",
+    },
+    {
+      title: "Malvasia Lunga IGT Beconcini, Toscana:",
+      price: " 5 €/copa, 30 €/botella",
+    },
+]};
+const VinosRosado = {
+  title: "Vinos blancos",
+  items: [
+    {
+      title: "Kreos Castello Monaci IGT, Puglia:",
+      price: " 24 €/botella",
+    },
+    {
+      title: "Lambrusco Argento Rosato DOC, Emilia Romagna: ",
+      price: " 5 €/copa, 18 €/botella",
+    },
+]};
+
+const VinosTintos = {
+  title: "Vinos Tintos",
+  items: [
+    {
+      title: "Shiraz Nero d'Avola DOC Solandia, Sicilia:",
+      price: " 4,5 €/copa, 19 €/botella",
+    },
+    {
+      title: "Passione & Sentimento IGT Pasqua, Veneto:",
+      price: " 4,5 €/copa, 21 €/botella",
+    },
+    {
+      title: "MezzaPezza Primitivo IGP Trullo di Pezza, Puglia:",
+      price: " 5 €/copa, 23 €/botella",
+    },
+    {
+      title: "Falerno del Massico DOC Villa Matilde, Campania:",
+      price: " 5 €/copa, 25 €/botella",
+    },
+    {
+      title: "Campostellato Aglianico IGP, Campania:",
+      price: " 5 €/copa, 28 €/botella",
+    },
+    {
+      title: "Barbera d'Asti DOCG Rinaldi, Piemonte:",
+      price: " 25 €/botella",
+    },
+    {
+      title: "Maurleo DOC Beconcini, Toscana:",
+      price: " 30 €/botella, 35 €/botella magnum, 40 €/botella jeroboam",
+    },
+  
+    {
+      title: "Bardolino Chiaretto DOC Pasqua, Veneto:",
+      price: " 5 €/copa, 21 €/botella",
+    },
+ 
+]};
+const data = { montanare, tapas, dolci, cocktails,bebidas, VinosBlancos, VinosTintos, VinosRosado};
 
 export default data;

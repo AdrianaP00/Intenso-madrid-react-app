@@ -15,7 +15,7 @@ const SpecialMenu = () => (
       {/* <img src={im} alt="menu__img" /> */}
     </div>
 
-    <div className="app__specialMenu-menu">
+    <div className="app__specialMenu-menu"id="montanare">
       {data.montanare && (
         <div className="app__specialMenu-menu_wine  flex__center">
           <p className="app__specialMenu-menu_heading">
@@ -38,7 +38,7 @@ const SpecialMenu = () => (
       )}
 
       {data.tapas && (
-        <div className="app__specialMenu-menu_cocktails  flex__center">
+        <div className="app__specialMenu-menu_cocktails  flex__center" id="tapa">
           <p className="app__specialMenu-menu_heading">{data.tapas.title}</p>
           <div className="app__specialMenu_menu_items">
             {data.tapas.items.map((tapa, index) => (
@@ -59,7 +59,7 @@ const SpecialMenu = () => (
 
     <div className="app__specialMenu-menu">
       {data.dolci && (
-        <div className="app__specialMenu-menu_wine  flex__center">
+        <div className="app__specialMenu-menu_wine  flex__center"id="dolce">
           <p className="app__specialMenu-menu_heading">{data.dolci.title}</p>
           <div className="app__specialMenu_menu_items">
             {data.dolci.items.map((dolce, index) => (
@@ -77,7 +77,7 @@ const SpecialMenu = () => (
         </div>
       )}
 
-      <div className="app__specialMenu-menu_cocktails  flex__start">
+      <div className="app__specialMenu-menu_cocktails  flex__start" id="cocktail">
         <p className="app__specialMenu-menu_heading">Cocktails</p>
         <p className="app__specialMenu-menu_heading">
           ’La senda que lleva al Paraíso

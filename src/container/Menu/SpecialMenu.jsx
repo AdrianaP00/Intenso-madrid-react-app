@@ -15,69 +15,11 @@ const SpecialMenu = () => (
       {/* <img src={im} alt="menu__img" /> */}
     </div>
 
-    <div className="app__specialMenu-menu"id="montanare">
-      {data.montanare && (
-        <div className="app__specialMenu-menu_wine  flex__center">
-          <p className="app__specialMenu-menu_heading">
-            {data.montanare.title}
-          </p>
-          <div className="app__specialMenu_menu_items">
-            {data.montanare.items.map((montanara, index) => (
-              <MenuItem
-                key={montanara.name + index}
-                name={montanara.name}
-                description={montanara.description}
-                img={montanara.img}
-                price={montanara.price}
-                tags={montanara.tags}
-                alergenics={montanara.alergenics}
-              />
-            ))}
-          </div>
-        </div>
-      )}
-
-      {data.tapas && (
-        <div className="app__specialMenu-menu_cocktails  flex__center" id="tapa">
-          <p className="app__specialMenu-menu_heading">{data.tapas.title}</p>
-          <div className="app__specialMenu_menu_items">
-            {data.tapas.items.map((tapa, index) => (
-              <MenuItem
-                key={tapa.name + index}
-                name={tapa.name}
-                description={tapa.description}
-                img={tapa.img}
-                price={tapa.price}
-                tags={tapa.tags}
-                alergenics={tapa.alergenics}
-              />
-            ))}
-          </div>
-        </div>
-      )}
-    </div>
-
-    <div className="app__specialMenu-menu">
-      {data.dolci && (
-        <div className="app__specialMenu-menu_wine  flex__center"id="dolce">
-          <p className="app__specialMenu-menu_heading">{data.dolci.title}</p>
-          <div className="app__specialMenu_menu_items">
-            {data.dolci.items.map((dolce, index) => (
-              <MenuItem
-                key={dolce.name + index}
-                name={dolce.name}
-                description={dolce.description}
-                img={dolce.img}
-                price={dolce.price}
-                tags={dolce.tags}
-                alergenics={dolce.alergenics}
-              />
-            ))}
-          </div>
-        </div>
-      )}
-
-      <div className="app__specialMenu-menu_cocktails  flex__start" id="cocktail">
+    <div className="app__specialMenu-menu" id="montanare">
+      <div
+        className="app__specialMenu-menu_cocktails  flex__start"
+        id="cocktail"
+      >
         <p className="app__specialMenu-menu_heading">Cocktails</p>
         <p className="app__specialMenu-menu_heading">
           ’La senda que lleva al Paraíso
@@ -98,6 +40,69 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
+
+      {data.montanare && (
+        <div className="app__specialMenu-menu_wine  flex__center">
+          <p className="app__specialMenu-menu_heading">
+            {data.montanare.title}
+          </p>
+          <div className="app__specialMenu_menu_items">
+            {data.montanare.items.map((montanara, index) => (
+              <MenuItem
+                key={montanara.name + index}
+                name={montanara.name}
+                description={montanara.description}
+                img={montanara.img}
+                price={montanara.price}
+                tags={montanara.tags}
+                alergenics={montanara.alergenics}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+
+    <div className="app__specialMenu-menu">
+      {data.tapas && (
+        <div
+          className="app__specialMenu-menu_cocktails  flex__center"
+          id="tapa"
+        >
+          <p className="app__specialMenu-menu_heading">{data.tapas.title}</p>
+          <div className="app__specialMenu_menu_items">
+            {data.tapas.items.map((tapa, index) => (
+              <MenuItem
+                key={tapa.name + index}
+                name={tapa.name}
+                description={tapa.description}
+                img={tapa.img}
+                price={tapa.price}
+                tags={tapa.tags}
+                alergenics={tapa.alergenics}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+      {data.dolci && (
+        <div className="app__specialMenu-menu_wine  flex__center" id="dolce">
+          <p className="app__specialMenu-menu_heading">{data.dolci.title}</p>
+          <div className="app__specialMenu_menu_items">
+            {data.dolci.items.map((dolce, index) => (
+              <MenuItem
+                key={dolce.name + index}
+                name={dolce.name}
+                description={dolce.description}
+                img={dolce.img}
+                price={dolce.price}
+                tags={dolce.tags}
+                alergenics={dolce.alergenics}
+              />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   </div>
 

@@ -281,6 +281,6 @@ const VinosTintos = {
     },
  
 ]};
-const data = { montanare, tapas, dolci, cocktails,bebidas, VinosBlancos, VinosTintos, VinosRosado};
+const data = { montanare, tapas, dolci, cocktails, bebidas, VinosBlancos, VinosTintos, VinosRosado};
 
 export default data;

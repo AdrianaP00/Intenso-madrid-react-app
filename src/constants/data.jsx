@@ -1,5 +1,3 @@
-import images from "./images";
-
 const montanare = {
   title: "Not The Classic Pizza",
   items: [

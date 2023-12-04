@@ -57,35 +57,35 @@ const tapas = {
     {
       name: "Fresella",
       description: "Aquí la Tostas se llama Fresella!",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/FRESELLA_qox7og.jpg",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/FRESELLA_qox7og.jpg",
       alergenics: ["gluten"],
       price: 12,
     },
     {
       name: "Patata Cacio&Pancetta",
       description: "Frita, Guarra .. ¿qué más quieres?!",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699832743/inverso-madrid/PATATA_CACIO_PANCETTA_ekep7q.webp",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699832743/inverso-madrid/PATATA_CACIO_PANCETTA_ekep7q.webp",
       alergenics: ["gluten", "lactosa", "cerdo"],
       price: 8,
     },
     {
       name: "Sepia PoP",
       description: "Mojas y Muerdes!",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699216799/inverso-madrid/sm8pydqnjgjyskkrqpuj.jpg",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216799/inverso-madrid/sm8pydqnjgjyskkrqpuj.jpg",
       alergenics: ["pescado"],
       price: 18,
     },
     {
       name: "Marenna 3.0",
       description: "Fatt na Marenn ca’ Murtadell!’",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/LA_MARENNA_3.0_ldcyvb.jpg",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/LA_MARENNA_3.0_ldcyvb.jpg",
       alergenics: ["cerdo"],
       price: 14,
     },
     {
       name: "Pic Nic (2pax)",
       description: "Ven al parque con nosotros?!",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833645/inverso-madrid/comida/PIC_NIC_eizj3t.webp",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833645/inverso-madrid/comida/PIC_NIC_eizj3t.webp",
       alergenics: ["cerdo", "lactosa"],
       price: 26,
     },
@@ -98,21 +98,21 @@ const dolci = {
     {
       name: "TiramiSpritz",
       description: "El único tiramisú borracho de Madrid",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/TIRAMISPRITZ_b7tecy.jpg",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/TIRAMISPRITZ_b7tecy.jpg",
       alergenics: ["alcool", "huevo", "lactosa", "gluten"],
       price: 7,
     },
     {
       name: "U’ Siciliano",
       description: "Crujiente y Goloso",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 7,
     },
     {
       name: "Affogato al Caffè",
       description: "Dulce, Italiano, Intenso",
-      img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/Affogato_al_Caff%C3%A8_2_g7yrxj.jpg",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/Affogato_al_Caff%C3%A8_2_g7yrxj.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 7,
     },
@@ -123,57 +123,57 @@ const cocktails = [
   {
     title: "Lujuriosos",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/5a305a53f28235196d9496e00c820562_xwzowb.jpg",
-    description:"‘Apasionadamente fresco ‘",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/5a305a53f28235196d9496e00c820562_xwzowb.jpg",
+    description: "‘Apasionadamente fresco ‘",
     tags: "Vodka | Jarabe de Melocotón | Vainilla | Lemonada",
   },
   {
     title: "Golosos",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Golosos_hzti9b.jpg",
-    description:"‘Excesivamente bueno’",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Golosos_hzti9b.jpg",
+    description: "‘Excesivamente bueno’",
     tags: "Ron añejo | Licor 43 | Licor de café | Chocolate Blanco | Nata",
   },
   {
     title: "Avaros",
     price: "11",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138287/Avaros_agkmnf.jpg",
-    description:"'No querrás compartirlo con nadie'",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138287/Avaros_agkmnf.jpg",
+    description: "'No querrás compartirlo con nadie'",
     tags: "Gin | Saint Germain | Jarabe casero de Pepino | Limon | Prosecco",
   },
   {
     title: "Iracundos",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Iracundos_crj6qa.jpg",
-    description:" ‘Definitivamente Spicy’",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Iracundos_crj6qa.jpg",
+    description: " ‘Definitivamente Spicy’",
     tags: "Tequila infundida con chile | Agave | Limon | Campari",
   },
   {
     title: "Herejes",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Herejes_molayo.jpg",
-    description:"‘¿Quién dice que la verdad es una?‘",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Herejes_molayo.jpg",
+    description: "‘¿Quién dice que la verdad es una?‘",
     tags: "Maraschino | Vermouth Extra Dry | Bitter Blanco",
   },
   {
     title: "Violentos",
     price: "11",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138289/Violentos_ozadnp.jpg",
-    description:"‘Sabemos que en el fondo eres un tierno‘",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138289/Violentos_ozadnp.jpg",
+    description: "‘Sabemos que en el fondo eres un tierno‘",
     tags: "Whiskey | Frangelico | Jarabe casero | Lemonada | Angostura",
   },
   {
     title: "Traidores",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Traidores_xe8iw2.jpg",
-    description:"‘Traidor*,Mentiros*.. otras cualidades?!‘",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Traidores_xe8iw2.jpg",
+    description: "‘Traidor*,Mentiros*.. otras cualidades?!‘",
     tags: "Cachaça | Limon | Cordial de Lapsang Souchong y Jengibre",
   },
   {
-    title:"Lucifer",
+    title: "Lucifer",
     price: "10",
-    img:"https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/6c2062864a7cb81b2b79f14605838096_v2tomb.jpg",
-    description:"‘Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?‘",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/6c2062864a7cb81b2b79f14605838096_v2tomb.jpg",
+    description: "‘Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?‘",
     tags: "Tequila de Miso Rojo | Vino Tinto | Jarabe casero | Limon",
   },
 ];
@@ -181,106 +181,216 @@ const cocktails = [
 const bebidas = {
   title: "Agua y Cerveza",
   items: [
-  {
-    title: "San Pellegrino 50 cl:",
-    price: " 2,50 €",
-  },
-  {
-    title: "Acqua Panna 50 cl:",
-    price: " 2,50 €",
-  },
+    {
+      title: "San Pellegrino",
+      description: "50 cl",
+      price: " 2,5",
+    },
+    {
+      title: "Acqua Panna",
+      description: "50 cl",
+      price: " 2,5",
+    },
 
-  {
-    title: "Moretti 33cl:",
-    price: " 3 €",
-  },
-  {
-    title: "Peroni 33cl:",
-    price: " 3 €",
-  },
-
- 
-]};
+    {
+      title: "Moretti",
+      description: "33 cl",
+      price: " 3",
+    },
+    {
+      title: "Peroni",
+      description: "33 cl",
+      price: " 3",
+    },
+  ],
+};
 
 const VinosBlancos = {
   title: "Vinos blancos",
   items: [
     {
-      title: "Grillo DOC Alagna Baglio Baiata, Sicilia:",
-      price: " 4,5 €/copa, 19 €/botella",
+      title: "Grillo DOC Alagna Baglio Baiata",
+      description: "Sicilia",
+      price: (
+        <>
+          <p className="p__cormorant">4,5/copa</p>
+          <p className="p__cormorant">19/botella</p>
+        </>
+      ),
     },
     {
-      title: "Pinot Grigio DOC San Marco, Veneto:",
-      price: " 4,5 €/copa, 21 €/botella",
+      title: "Pinot Grigio DOC San Marco",
+      description: "Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">4,5/copa</p>
+          <p className="p__cormorant">21/botella</p>
+        </>
+      ),
     },
     {
-      title: "Falanghina IGP Campostellato, Campania:",
-      price: " 4,5 €/copa, 23 €/botella",
+      title: "Falanghina IGP Campostellato",
+      description: "Campania",
+      price: (
+        <>
+          <p className="p__cormorant">4,5/copa</p>
+          <p className="p__cormorant">23/botella</p>
+        </>
+      ),
     },
     {
-      title: "Chardonnay DOC Conti d'Arco, Trentino:",
-      price: " 5 €/copa, 25 €/botella",
+      title: "Chardonnay DOC Conti d'Arco",
+      description: "Trentino",
+      price: (
+        <>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">25/botella</p>
+        </>
+      ),
     },
     {
-      title: "Passione & Sentimento IGT Pasqua, Veneto:",
-      price: " 5 €/copa, 28 €/botell",
+      title: "Passione & Sentimento IGT Pasqua",
+      description: "Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">28/botella</p>
+        </>
+      ),
     },
     {
-      title: "Malvasia Lunga IGT Beconcini, Toscana:",
-      price: " 5 €/copa, 30 €/botella",
+      title: "Malvasia Lunga IGT Beconcini",
+      description: "Toscana",
+      price: (
+        <>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">30/botella</p>
+        </>
+      ),
     },
-]};
+  ],
+};
 const VinosRosado = {
-  title: "Vinos blancos",
+  title: "Vinos rosado",
   items: [
     {
-      title: "Kreos Castello Monaci IGT, Puglia:",
-      price: " 24 €/botella",
+      title: "Kreos Castello Monaci IGT",
+      description: "Puglia",
+      price: (
+        <>
+          <p className="p__cormorant"> 24/botella</p>
+        </>
+      ),
     },
     {
-      title: "Lambrusco Argento Rosato DOC, Emilia Romagna: ",
-      price: " 5 €/copa, 18 €/botella",
+      title: "Lambrusco Argento Rosato DOC: ",
+      description: "Emilia Romagna",
+      price: (
+        <>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">18 /botella</p>
+        </>
+      ),
     },
-]};
+  ],
+};
 
 const VinosTintos = {
-  title: "Vinos Tintos",
+  title: "Vinos tintos",
   items: [
     {
-      title: "Shiraz Nero d'Avola DOC Solandia, Sicilia:",
-      price: " 4,5 €/copa, 19 €/botella",
+      title: "Shiraz Nero d'Avola DOC Solandia",
+      description: "Sicilia",
+      price: (
+        <>
+          <p className="p__cormorant">4,5 /copa</p>
+          <p className="p__cormorant">19 /botella</p>
+        </>
+      ),
     },
     {
-      title: "Passione & Sentimento IGT Pasqua, Veneto:",
-      price: " 4,5 €/copa, 21 €/botella",
+      title: "Passione & Sentimento IGT Pasqua",
+      description: "Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">4,5 /copa</p>
+          <p className="p__cormorant">21 /botella</p>
+        </>
+      ),
     },
     {
-      title: "MezzaPezza Primitivo IGP Trullo di Pezza, Puglia:",
-      price: " 5 €/copa, 23 €/botella",
+      title: "MezzaPezza Primitivo IGP Trullo di Pezza",
+      description: "Puglia",
+      price: (
+        <>
+          <p className="p__cormorant">5 /copa</p>
+          <p className="p__cormorant">23 /botella</p>
+        </>
+      ),
     },
     {
-      title: "Falerno del Massico DOC Villa Matilde, Campania:",
-      price: " 5 €/copa, 25 €/botella",
+      title: "Falerno del Massico DOC Villa Matilde",
+      description: "Campania",
+      price: (
+        <>
+          <p className="p__cormorant"> 5 /copa</p>
+          <p className="p__cormorant">25 /botella</p>
+        </>
+      ),
     },
     {
-      title: "Campostellato Aglianico IGP, Campania:",
-      price: " 5 €/copa, 28 €/botella",
+      title: "Campostellato Aglianico IGP",
+      description: "Campania",
+      price: (
+        <>
+          <p className="p__cormorant">5 /copa</p>
+          <p className="p__cormorant">28 /botella</p>
+        </>
+      ),
     },
     {
-      title: "Barbera d'Asti DOCG Rinaldi, Piemonte:",
-      price: " 25 €/botella",
+      title: "Barbera d'Asti DOCG Rinaldi",
+      description: "Piemonte",
+      price: (
+        <>
+          <p className="p__cormorant">5 /copa</p>
+          <p className="p__cormorant">25 /botella</p>
+        </>
+      ),
     },
     {
-      title: "Maurleo DOC Beconcini, Toscana:",
-      price: " 30 €/botella, 35 €/botella magnum, 40 €/botella jeroboam",
+      title: "Maurleo DOC Beconcini",
+      description: "Toscana",
+      price: (
+        <>
+          <p className="p__cormorant">30 /botella</p>
+          <p className="p__cormorant">35 /botella magnum</p>
+          <p className="p__cormorant">40 /botella jeroboam</p>
+        </>
+      ),
     },
-  
+
     {
       title: "Bardolino Chiaretto DOC Pasqua, Veneto:",
-      price: " 5 €/copa, 21 €/botella",
+      description: "Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">21/botella</p>
+        </>
+      ),
     },
- 
-]};
-const data = { montanare, tapas, dolci, cocktails, bebidas, VinosBlancos, VinosTintos, VinosRosado};
+  ],
+};
+const data = {
+  montanare,
+  tapas,
+  dolci,
+  cocktails,
+  bebidas,
+  VinosBlancos,
+  VinosTintos,
+  VinosRosado,
+};
 
 export default data;

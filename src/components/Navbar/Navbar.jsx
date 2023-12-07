@@ -30,11 +30,11 @@ const Navbar = () => {
             <ul className="app__navbar-smallscreen_links">
               <li><a href="#cocktail" onClick={() => setToggleMenu(false)}>Cocktail</a></li>
               <li><a href="#montanare" onClick={() => setToggleMenu(false)}>Montanare</a></li>
-              <li><a href="#tapa" onClick={() => setToggleMenu(false)}>Tapa</a></li>
+              <li><a href="#tapa" onClick={() => setToggleMenu(false)}>Tapas</a></li>
               <li><a href="#dolce" onClick={() => setToggleMenu(false)}>Dolce</a></li>
               <li><a href="#bebidas" onClick={() => setToggleMenu(false)}>Bebidas</a></li>
               <li><a href="#VinosBlancos" onClick={() => setToggleMenu(false)}>VinosBlancos</a></li>
-              <li><a href="#VinosRosado" onClick={() => setToggleMenu(false)}>VinosRosado</a></li>
+              <li><a href="#VinosRosado" onClick={() => setToggleMenu(false)}>VinosRosados</a></li>
               <li><a href="#VinosTintos" onClick={() => setToggleMenu(false)}>VinosTintos</a></li>
 
               <li><a href="https://www.localismart.it/intensomadrid/prenota" onClick={() => setToggleMenu(false)}>Reserva una mesa</a></li>

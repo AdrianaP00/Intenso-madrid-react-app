@@ -251,17 +251,16 @@ const VinosBlancos = {
       description: "Veneto",
       price: (
         <>
-          <p className="p__cormorant">5/copa</p>
           <p className="p__cormorant">28/botella</p>
         </>
       ),
     },
     {
-      title: "Malvasia Lunga IGT Beconcini",
-      description: "Toscana",
+      title: "Moscato d’Asti DOC",
+      description: "Piemonte",
       price: (
         <>
-          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">4,5/copa</p>
           <p className="p__cormorant">30/botella</p>
         </>
       ),
@@ -269,8 +268,18 @@ const VinosBlancos = {
   ],
 };
 const VinosRosado = {
-  title: "Vinos rosado",
+  title: "Vinos rosados",
   items: [
+    {
+      title: "Bardolino Chiaretto DOC Pasqua, Veneto:",
+      description: "Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">21/botella</p>
+        </>
+      ),
+    },
     {
       title: "Kreos Castello Monaci IGT",
       description: "Puglia",
@@ -286,7 +295,7 @@ const VinosRosado = {
       price: (
         <>
           <p className="p__cormorant">5/copa</p>
-          <p className="p__cormorant">18 /botella</p>
+          <p className="p__cormorant">18/botella</p>
         </>
       ),
     },
@@ -301,18 +310,8 @@ const VinosTintos = {
       description: "Sicilia",
       price: (
         <>
-          <p className="p__cormorant">4,5 /copa</p>
-          <p className="p__cormorant">19 /botella</p>
-        </>
-      ),
-    },
-    {
-      title: "Passione & Sentimento IGT Pasqua",
-      description: "Veneto",
-      price: (
-        <>
-          <p className="p__cormorant">4,5 /copa</p>
-          <p className="p__cormorant">21 /botella</p>
+          <p className="p__cormorant">4,5/copa</p>
+          <p className="p__cormorant">19/botella</p>
         </>
       ),
     },
@@ -321,8 +320,8 @@ const VinosTintos = {
       description: "Puglia",
       price: (
         <>
-          <p className="p__cormorant">5 /copa</p>
-          <p className="p__cormorant">23 /botella</p>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">23/botella</p>
         </>
       ),
     },
@@ -331,8 +330,16 @@ const VinosTintos = {
       description: "Campania",
       price: (
         <>
-          <p className="p__cormorant"> 5 /copa</p>
-          <p className="p__cormorant">25 /botella</p>
+          <p className="p__cormorant">25/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Passione & Sentimento IGT Pasqua",
+      description: "Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">21/botella</p>
         </>
       ),
     },
@@ -341,8 +348,8 @@ const VinosTintos = {
       description: "Campania",
       price: (
         <>
-          <p className="p__cormorant">5 /copa</p>
-          <p className="p__cormorant">28 /botella</p>
+          <p className="p__cormorant">4,5/copa</p>
+          <p className="p__cormorant">28/botella</p>
         </>
       ),
     },
@@ -351,8 +358,8 @@ const VinosTintos = {
       description: "Piemonte",
       price: (
         <>
-          <p className="p__cormorant">5 /copa</p>
-          <p className="p__cormorant">25 /botella</p>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">25/botella</p>
         </>
       ),
     },
@@ -361,20 +368,7 @@ const VinosTintos = {
       description: "Toscana",
       price: (
         <>
-          <p className="p__cormorant">30 /botella</p>
-          <p className="p__cormorant">35 /botella magnum</p>
-          <p className="p__cormorant">40 /botella jeroboam</p>
-        </>
-      ),
-    },
-
-    {
-      title: "Bardolino Chiaretto DOC Pasqua, Veneto:",
-      description: "Veneto",
-      price: (
-        <>
-          <p className="p__cormorant">5/copa</p>
-          <p className="p__cormorant">21/botella</p>
+          <p className="p__cormorant">30/botella</p>
         </>
       ),
     },

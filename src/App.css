@@ -65,7 +65,9 @@
   border-style: solid;
   border-color: var(--color-golden);
   width: -webkit-fill-available;
-  padding: 10px;
+  width: inherit;
+  padding: 20px;
+  font-size: larger;
   box-shadow: 0 0 1px var(--color-golden), 0 0 3px var(--color-golden),
     0 0 3px var(--color-golden), 0 0 10px var(--color-golden);
 }

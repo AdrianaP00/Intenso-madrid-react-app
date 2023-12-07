@@ -15,7 +15,7 @@ const SpecialMenu = () => (
       {/* <img src={im} alt="menu__img" /> */}
     </div>
 
-    <div className="app__specialMenu-menu" id="montanare">
+    <div className="app__specialMenu-menu" id="cocktail">
       <div
         className="app__specialMenu-menu_cocktails  flex__start"
         id="cocktail"
@@ -42,7 +42,8 @@ const SpecialMenu = () => (
       </div>
 
       {data.montanare && (
-        <div className="app__specialMenu-menu_wine  flex__center">
+        <div className="app__specialMenu-menu_wine  flex__center"
+        id="montanare">
           <p className="app__specialMenu-menu_heading">
             {data.montanare.title}
           </p>

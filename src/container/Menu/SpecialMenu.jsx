@@ -42,8 +42,10 @@ const SpecialMenu = () => (
       </div>
 
       {data.montanare && (
-        <div className="app__specialMenu-menu_wine  flex__center"
-        id="montanare">
+        <div
+          className="app__specialMenu-menu_wine  flex__center"
+          id="montanare"
+        >
           <p className="app__specialMenu-menu_heading">
             {data.montanare.title}
           </p>
@@ -126,8 +128,13 @@ const SpecialMenu = () => (
         </div>
       )}
       {data.VinosBlancos && (
-        <div className="app__specialMenu-menu_wine  flex__center" id="VinosBlancos">
-          <p className="app__specialMenu-menu_heading">{data.VinosBlancos.title}</p>
+        <div
+          className="app__specialMenu-menu_wine  flex__center"
+          id="VinosBlancos"
+        >
+          <p className="app__specialMenu-menu_heading">
+            {data.VinosBlancos.title}
+          </p>
           <div className="app__specialMenu_menu_items">
             {data.VinosBlancos.items.map((vino, index) => (
               <MenuItem
@@ -148,7 +155,9 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_cocktails  flex__center"
           id="VinosRosado"
         >
-          <p className="app__specialMenu-menu_heading">{data.VinosRosado.title}</p>
+          <p className="app__specialMenu-menu_heading">
+            {data.VinosRosado.title}
+          </p>
           <div className="app__specialMenu_menu_items">
             {data.VinosRosado.items.map((VinosRosado, index) => (
               <MenuItem
@@ -162,8 +171,13 @@ const SpecialMenu = () => (
         </div>
       )}
       {data.VinosTintos && (
-        <div className="app__specialMenu-menu_wine  flex__center" id="VinosTintos">
-          <p className="app__specialMenu-menu_heading">{data.VinosTintos.title}</p>
+        <div
+          className="app__specialMenu-menu_wine  flex__center"
+          id="VinosTintos"
+        >
+          <p className="app__specialMenu-menu_heading">
+            {data.VinosTintos.title}
+          </p>
           <div className="app__specialMenu_menu_items">
             {data.VinosTintos.items.map((VinosTintos, index) => (
               <MenuItem
@@ -171,6 +185,27 @@ const SpecialMenu = () => (
                 name={VinosTintos.title}
                 price={VinosTintos.price}
                 description={VinosTintos.description}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+
+    <div className="app__specialMenu-menu">
+      {data.Prosecco && (
+        <div
+          className="app__specialMenu-menu_cocktails  flex__center"
+          id="Prosecco"
+        >
+          <p className="app__specialMenu-menu_heading">{data.Prosecco.title}</p>
+          <div className="app__specialMenu_menu_items">
+            {data.Prosecco.items.map((Prosecco, index) => (
+              <MenuItem
+                key={Prosecco.title + index}
+                name={Prosecco.title}
+                price={Prosecco.price}
+                description={Prosecco.description}
               />
             ))}
           </div>

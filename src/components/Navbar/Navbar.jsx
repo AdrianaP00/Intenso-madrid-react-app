@@ -36,6 +36,7 @@ const Navbar = () => {
               <li><a href="#VinosBlancos" onClick={() => setToggleMenu(false)}>VinosBlancos</a></li>
               <li><a href="#VinosRosado" onClick={() => setToggleMenu(false)}>VinosRosados</a></li>
               <li><a href="#VinosTintos" onClick={() => setToggleMenu(false)}>VinosTintos</a></li>
+              <li><a href="#Prosecco" onClick={() => setToggleMenu(false)}>Prosecco</a></li>
 
               <li><a href="https://www.localismart.it/intensomadrid/prenota" onClick={() => setToggleMenu(false)}>Reserva una mesa</a></li>
             </ul>

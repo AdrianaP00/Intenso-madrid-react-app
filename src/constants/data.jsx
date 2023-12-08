@@ -267,6 +267,7 @@ const VinosBlancos = {
     },
   ],
 };
+
 const VinosRosado = {
   title: "Vinos rosados",
   items: [
@@ -374,6 +375,85 @@ const VinosTintos = {
     },
   ],
 };
+
+const Prosecco = {
+  title: "PROSECCO & CHAMPAGNE",
+  items: [
+    {
+      title: "Lambrusco Argento Rosato DOC",
+      description: "Emilia Romagna",
+      price: (
+        <>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">18/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Prosecco DOC Millesimato",
+      description: "Borgo Imperiale, Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">5/copa</p>
+          <p className="p__cormorant">21/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Prosecco Teresa Rizzi DOC",
+      description: "Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">6/copa</p>
+          <p className="p__cormorant">25/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Falanghina Brut Feudi San Gregorio",
+      description: "Campania",
+      price: (
+        <>
+          <p className="p__cormorant">40/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Bellavista Alma Grande Cuvée Brut DOCG",
+      description: "Franciacorta",
+      price: (
+        <>
+          <p className="p__cormorant">60/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Laurent Perrier La Cuvée Brut",
+      price: (
+        <>
+          <p className="p__cormorant">70/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Mumm Gran Cordon Rouge Brut",
+      price: (
+        <>
+          <p className="p__cormorant">80/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Moët & Chandon Rosé Impérial",
+      price: (
+        <>
+          <p className="p__cormorant">90/botella</p>
+        </>
+      ),
+    },
+  ],
+};
+
 const data = {
   montanare,
   tapas,
@@ -383,6 +463,7 @@ const data = {
   VinosBlancos,
   VinosTintos,
   VinosRosado,
+  Prosecco,
 };
 
 export default data;

@@ -55,7 +55,6 @@
 .app__specialMenu_menu_items {
   display: flex;
   flex-direction: column;
-  background-image: url("");
   margin: 2rem 0;
   width: 100%;
 }

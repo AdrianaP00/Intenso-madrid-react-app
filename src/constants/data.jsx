@@ -317,40 +317,12 @@ const VinosTintos = {
       ),
     },
     {
-      title: "MezzaPezza Primitivo IGP Trullo di Pezza",
-      description: "Puglia",
-      price: (
-        <>
-          <p className="p__cormorant">5/copa</p>
-          <p className="p__cormorant">23/botella</p>
-        </>
-      ),
-    },
-    {
-      title: "Falerno del Massico DOC Villa Matilde",
-      description: "Campania",
-      price: (
-        <>
-          <p className="p__cormorant">25/botella</p>
-        </>
-      ),
-    },
-    {
-      title: "Passione & Sentimento IGT Pasqua",
-      description: "Veneto",
-      price: (
-        <>
-          <p className="p__cormorant">21/botella</p>
-        </>
-      ),
-    },
-    {
       title: "Campostellato Aglianico IGP",
       description: "Campania",
       price: (
         <>
           <p className="p__cormorant">4,5/copa</p>
-          <p className="p__cormorant">28/botella</p>
+          <p className="p__cormorant">23/botella</p>
         </>
       ),
     },
@@ -365,11 +337,40 @@ const VinosTintos = {
       ),
     },
     {
+      title: "Passione & Sentimento IGT Pasqua",
+      description: "Veneto",
+      price: (
+        <>
+          <p className="p__cormorant">28/botella</p>
+        </>
+      ),
+    },
+    {
       title: "Maurleo DOC Beconcini",
       description: "Toscana",
       price: (
         <>
+          <p className="p__cormorant">5/copa</p>
           <p className="p__cormorant">30/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "MezzaPezza Primitivo IGP Trullo di Pezza",
+      description: "Puglia",
+      price: (
+        <>
+          <p className="p__cormorant">6/copa</p>
+          <p className="p__cormorant">40/botella</p>
+        </>
+      ),
+    },
+    {
+      title: "Falerno del Massico DOC Villa Matilde",
+      description: "Campania",
+      price: (
+        <>
+          <p className="p__cormorant">25/botella</p>
         </>
       ),
     },

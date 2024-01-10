@@ -6,7 +6,9 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+// Vercel
 import { inject } from "@vercel/analytics";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 inject();
 
@@ -20,6 +22,8 @@ const App = () => (
     <Gallery />
 
     <Footer />
+
+    <SpeedInsights />
   </div>
 );
 

@@ -1,10 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import { AboutUs, Footer, Gallery, Header, SpecialMenu } from './container';
-import { Navbar } from './components';
-import './App.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import { AboutUs, Footer, Gallery, Header, SpecialMenu } from "./container";
+import { Navbar } from "./components";
+import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import { inject } from "@vercel/analytics";
+
+inject();
 
 AOS.init();
 const App = () => (

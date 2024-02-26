@@ -3,7 +3,13 @@ const montanare = {
   items: [
     {
       name: "La Montanara ‘Classic’",
-      description: "con Salsa de Tomate S.Marzano, Parmigiano y Albahaca",
+      description: (
+        <>
+          <p>con Salsa de Tomate S.Marzano, Parmigiano y Albahaca</p>
+          <br />
+          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p>
+        </>
+      ),
       alergenics: ["gluten"],
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699832744/inverso-madrid/LA_MONTANARA_pjnepq.jpg",
       price: 12,
@@ -18,9 +24,14 @@ const montanare = {
     },
     {
       name: "La Pija",
-      description:
-        "No sé si lo has entendido, pero ¡Lo frito siempre sabe mejor!",
       tags: "con Salsa de Trufa",
+      description: (
+        <>
+          <p>No sé si lo has entendido, pero ¡Lo frito siempre sabe mejor!</p>
+          <br />
+          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p>
+        </>
+      ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138199/d9aa8b0abf49c6632dd76b9b96e0398a_mcivoy.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 15,
@@ -47,14 +58,26 @@ const tapas = {
     },
     {
       name: "Burrata d’Inverno",
-      description: "Chorreada 100% Italiana?!",
+      description: (
+        <>
+          <p>Chorreada 100% Italiana?!</p>
+          <br />
+          <p>* Suppl. Embutidos 3€</p>
+        </>
+      ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699826071/inverso-madrid/BURRATA_D_INVERNO_srjda2.jpg",
       alergenics: ["lactosa", "frutos-secos"],
       price: 14,
     },
     {
       name: "Fresella",
-      description: "Aquí la Tostas se llama Fresella!",
+      description: (
+        <>
+          <p>Aquí la Tostas se llama Fresella!</p>
+          <br />
+          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p>
+        </>
+      ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/FRESELLA_qox7og.jpg",
       alergenics: ["gluten"],
       price: 12,
@@ -362,15 +385,6 @@ const VinosTintos = {
         <>
           <p className="p__cormorant">6/copa</p>
           <p className="p__cormorant">40/botella</p>
-        </>
-      ),
-    },
-    {
-      title: "Falerno del Massico DOC Villa Matilde",
-      description: "Campania",
-      price: (
-        <>
-          <p className="p__cormorant">25/botella</p>
         </>
       ),
     },

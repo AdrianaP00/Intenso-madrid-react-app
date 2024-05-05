@@ -1,5 +1,5 @@
 const montanare = {
-  title: "Not The Classic Pizza",
+  title: "Perfectas para compartir",
   items: [
     {
       name: "‘LA MONTANARA’",
@@ -185,7 +185,7 @@ const dolci = {
   title: "Dolci",
   items: [
     {
-      name: "TiramiSpritz",
+      name: "TIRAMISPRITZ",
       description: (
         <>
           <p>El único Tiramisù borracho de Madrid</p>

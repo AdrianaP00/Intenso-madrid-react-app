@@ -39,6 +39,13 @@ const SpecialMenu = () => (
             />
           ))}
         </div>
+        <p className="app__specialMenu-menu_heading_medium">
+        ’TE APETECE ALGO DIFERENTE ?!
+        PREGUNTAS POR NUESTROS COCKTAILS SIN ALCOHOL y POR LOS CLÁSICOS.’.
+        </p>
+        <p className="app__specialMenu-menu_heading_mini">
+        Ningún actor fue maltratado durante la sesión fotográfica.
+        </p>
       </div>
 
       {data.caprichos && (

@@ -4,7 +4,9 @@ const montanare = {
     {
       name: "‘LA MONTANARA’",
       tags: "",
-      description: <p>Pizza Frita con salsa de Tomate San Marzano y Parmigiano</p>,
+      description: (
+        <p>Pizza Frita con salsa de Tomate San Marzano y Parmigiano</p>
+      ),
       alergenics: ["gluten"],
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/LA_MONTANARA_kj1rch.jpg",
       price: 10.5,
@@ -20,7 +22,9 @@ const montanare = {
     {
       name: "LA FRESCA",
       tags: "",
-      description: <p>Pizza Frita con Tomate Beefsteak y Mayonesa de Albahaca</p>,
+      description: (
+        <p>Pizza Frita con Tomate Beefsteak y Mayonesa de Albahaca</p>
+      ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927345/inverso-madrid/2024-MAY/comida/LA_FRESCA.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 11,
@@ -48,7 +52,10 @@ const caprichos = {
       name: "CANNOLO TONNATO",
       description: (
         <>
-          <p>Cannolo crujiente relleno de Crema de Atún,Anchoas,Alcaparras y Tomate</p>
+          <p>
+            Cannolo crujiente relleno de Crema de Atún,Anchoas,Alcaparras y
+            Tomate
+          </p>
           <br />
           <p>* Suplemento 2.50€</p>
         </>
@@ -120,7 +127,10 @@ const tapas = {
         <>
           <p>Crujido Veraniego</p>
           <br />
-          <p>Tostas Artesanal con Ricotta,Menta y Calabacin marinados a la Scapece</p>
+          <p>
+            Tostas Artesanal con Ricotta,Menta y Calabacin marinados a la
+            Scapece
+          </p>
         </>
       ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927327/inverso-madrid/2024-MAY/comida/BRUSCHETTA_VERDE.jpg",
@@ -133,7 +143,9 @@ const tapas = {
         <>
           <p>‘Perfume de Italia’</p>
           <br />
-          <p>Patatas Fritas con Salsa Alioli,Salsa de Tomate y Orégano fresco</p>
+          <p>
+            Patatas Fritas con Salsa Alioli,Salsa de Tomate y Orégano fresco
+          </p>
         </>
       ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927322/inverso-madrid/2024-MAY/comida/PATATA_MARINARA.jpg",
@@ -146,7 +158,10 @@ const tapas = {
         <>
           <p>‘La merienda italiana’</p>
           <br />
-          <p>Duo de Brioches tostados, rellenos de Salame Napoli,Parmigiano y Confitura de Higos</p>
+          <p>
+            Duo de Brioches tostados, rellenos de Salame Napoli,Parmigiano y
+            Confitura de Higos
+          </p>
         </>
       ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927316/inverso-madrid/2024-MAY/comida/PANE_E_SALAME.jpg",
@@ -159,7 +174,36 @@ const tapas = {
         <>
           <p>‘Ven al parque con nosotros’</p>
           <br />
-          <p>Tabla de Embutidos y Quesos Italianos</p>
+          <p className="pink-text">Tabla de Embutidos y Quesos Italianos</p>
+          <table className="menu-table">
+            <tr>
+              <th></th>
+              <th></th>
+              <th className="pink-text">Por dos</th>
+            </tr>
+            <tr>
+              <td>Tabla de Quesos</td>
+              <td style={{ textAlign: "center" }}>7</td>
+              <td style={{ textAlign: "center" }}>13</td>
+            </tr>
+            <tr>
+              <td>Tabla de Embutidos</td>
+              <td style={{ textAlign: "center" }}>11</td>
+              <td style={{ textAlign: "center" }}>21</td>
+            </tr>
+          </table>
+          <br />
+          <p className="pink-text">* suplementos</p>
+          <table>
+            <tr>
+              <td>Suplementos Embutidos</td>
+              <td style={{ textAlign: "end" }}>3</td>
+            </tr>
+            <tr>
+              <td>Suplementos Queso</td>
+              <td style={{ textAlign: "end" }}>2.5</td>
+            </tr>
+          </table>
         </>
       ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927311/inverso-madrid/2024-MAY/comida/PICNIC.jpg",
@@ -217,7 +261,10 @@ const dolci = {
         <>
           <p>‘Un baba paseando por Madrid’</p>
           <br />
-          <p>Babà Napolitano , Bagna al Vermouth , Mousse al Pistacchio , Pistacchio crujiente y Cereza Amarena</p>
+          <p>
+            Babà Napolitano , Bagna al Vermouth , Mousse al Pistacchio ,
+            Pistacchio crujiente y Cereza Amarena
+          </p>
         </>
       ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927294/inverso-madrid/2024-MAY/comida/BABA_VERMOUTH.jpg",
@@ -232,7 +279,8 @@ const cocktails = [
     title: "MACHO",
     price: "10",
     img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927259/inverso-madrid/2024-MAY/drink/MACHO.jpg",
-    description: "‘El amor tiene mil formas, pero los hombres necesitan un par‘",
+    description:
+      "‘El amor tiene mil formas, pero los hombres necesitan un par‘",
     tags: "RYE WHISKEY | SWEET VERMOUTH | LIMA | HOJAS DE MENTA",
   },
   {
@@ -253,14 +301,16 @@ const cocktails = [
     title: "MAMMONE",
     price: "9",
     img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927249/inverso-madrid/2024-MAY/drink/MAMMONE.jpg",
-    description: " ‘Nunca me casaría con un 'hombre de mamá',No me siento bien con el matrimonio.’",
+    description:
+      " ‘Nunca me casaría con un 'hombre de mamá',No me siento bien con el matrimonio.’",
     tags: "VERMOUTH ROSSO | NARANJA | JARABE DE FRESA Y FRUTA DE LA PASSION | PEYCHAUD’S BITTER",
   },
   {
     title: "TOMATE LOVER",
     price: "10",
     img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927376/inverso-madrid/2024-MAY/drink/TOMATE_LOVER.jpg",
-    description: "‘Los italianos solo tienen dos cosas en mente: la otra es el tomate.‘",
+    description:
+      "‘Los italianos solo tienen dos cosas en mente: la otra es el tomate.‘",
     tags: "VODKA | ZUMO DE TOMATE | JARABE DE PAN TOSTADO| LIMÓN",
   },
   {
@@ -274,7 +324,8 @@ const cocktails = [
     title: "COFFEE LOVER",
     price: "10",
     img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927244/inverso-madrid/2024-MAY/drink/COFFE_LOVER.jpg",
-    description: "‘Sea cual sea tu pregunta, mi respuesta es: café. ¡Buenos días!‘",
+    description:
+      "‘Sea cual sea tu pregunta, mi respuesta es: café. ¡Buenos días!‘",
     tags: "RON ANEJO | SAMBUCA | CAFFE ESPRESSO | JARABE CASERO | LICOR DE CAFÉ",
   },
 ];

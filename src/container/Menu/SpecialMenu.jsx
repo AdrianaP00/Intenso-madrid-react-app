@@ -11,9 +11,7 @@ const SpecialMenu = () => (
       <h1 className="headtext__cormorant">Nuestra carta</h1>
     </div>
 
-    <div className="app__specialMenu-menu_img">
-      {/* <img src={im} alt="menu__img" /> */}
-    </div>
+    <div className="app__specialMenu-menu_img"></div>
 
     <div className="app__specialMenu-menu" id="cocktail">
       <div
@@ -21,11 +19,9 @@ const SpecialMenu = () => (
         id="cocktail"
       >
         <p className="app__specialMenu-menu_heading">Cocktails</p>
+        <p className="app__specialMenu-menu_heading">’ITALIANS DO IT BETTER’</p>
         <p className="app__specialMenu-menu_heading">
-          ’La senda que lleva al Paraíso
-        </p>
-        <p className="app__specialMenu-menu_heading">
-          comienza en el Infierno’.
+          Cual Italiano Te Sientes ?
         </p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
@@ -40,17 +36,19 @@ const SpecialMenu = () => (
           ))}
         </div>
         <p className="app__specialMenu-menu_heading_medium">
-        ’TE APETECE ALGO DIFERENTE ?!
-        PREGUNTAS POR NUESTROS COCKTAILS SIN ALCOHOL y POR LOS CLÁSICOS.’.
+          ’TE APETECE ALGO DIFERENTE ?! PREGUNTAS POR NUESTROS COCKTAILS SIN
+          ALCOHOL y POR LOS CLÁSICOS.’.
         </p>
         <p className="app__specialMenu-menu_heading_mini">
-        Ningún actor fue maltratado durante la sesión fotográfica.
+          Ningún actor fue maltratado durante la sesión fotográfica.
         </p>
       </div>
 
       {data.caprichos && (
-        <div className="app__specialMenu-menu_wine  flex__center" id="caprichos">
-          <p className="app__specialMenu-menu_heading">{data.caprichos.title}</p>
+        <div className="app__specialMenu-menu_wine flex__center" id="caprichos">
+          <p className="app__specialMenu-menu_heading">
+            {data.caprichos.title}
+          </p>
           <div className="app__specialMenu_menu_items">
             {data.caprichos.items.map((capricho, index) => (
               <MenuItem

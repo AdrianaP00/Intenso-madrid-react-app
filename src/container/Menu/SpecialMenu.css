@@ -21,6 +21,24 @@
   flex-direction: row;
 }
 
+.app__specialMenu-menu_heading_mini {
+  font-family: var(--font-base);
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 58.5px;
+  letter-spacing: 0.04em;
+  color: #8c19e6;
+}
+.app__specialMenu-menu_heading_medium {
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 58.5px;
+  letter-spacing: 0.04em;
+  color: var(--color-golden);
+}
+
 .app__specialMenu-menu_heading {
   font-family: var(--font-base);
   font-weight: 600;

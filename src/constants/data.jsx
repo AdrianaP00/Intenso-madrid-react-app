@@ -1,39 +1,27 @@
 const montanare = {
-  title: "Not The Classic Pizza",
+  title: "Perfectas para compartir",
   items: [
     {
       name: "‘LA MONTANARA’",
       tags: "",
-      description: (
-        <>
-          <p>Pizza Frita con salsa de Tomate San Marzano y Parmigiano</p>
-          {/* <br />
-          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p> */}
-        </>
-      ),
+      description: <p>Pizza Frita con salsa de Tomate San Marzano y Parmigiano</p>,
       alergenics: ["gluten"],
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/LA_MONTANARA_kj1rch.jpg",
       price: 10.5,
     },
     {
       name: "LA PEPPERONI",
       tags: "",
       description: "Pizza Frita con crema de Ricotta y Spianata Calabrese",
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927370/inverso-madrid/2024-MAY/comida/LA_PEPPERONI.jpg",
       alergenics: ["gluten", "lactosa", "cerdo", "frutos-secos"],
       price: 13,
     },
     {
       name: "LA FRESCA",
       tags: "",
-      description: (
-        <>
-          <p>Pizza Frita con Tomate Beefsteak y Mayonesa de Albahaca</p>
-          {/* <br />
-          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p> */}
-        </>
-      ),
-      img: "",
+      description: <p>Pizza Frita con Tomate Beefsteak y Mayonesa de Albahaca</p>,
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927345/inverso-madrid/2024-MAY/comida/LA_FRESCA.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 11,
     },
@@ -52,7 +40,7 @@ const caprichos = {
           <p>* Suplemento 2.50€</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927283/inverso-madrid/2024-MAY/comida/UOVO_POMODORO.jpg",
       alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
       price: 5.5,
     },
@@ -65,7 +53,7 @@ const caprichos = {
           <p>* Suplemento 2.50€</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927352/inverso-madrid/2024-MAY/comida/CANNOLO_TONNATO.jpg",
       alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
       price: 7.5,
     },
@@ -78,7 +66,7 @@ const caprichos = {
           <p>* Suplemento 1.75€</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927358/inverso-madrid/2024-MAY/comida/CROCCHETTA.jpg",
       alergenics: ["lactosa", "frutos-secos"],
       price: 7,
     },
@@ -96,7 +84,7 @@ const tapas = {
           <p>Tortilla de Spaghetti y Salame Napoli.</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/TORTILLA_DE_PASTA_ayr1nh.jpg",
       alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
       price: 9,
     },
@@ -109,7 +97,7 @@ const tapas = {
           <p>Albóndigas en Salsa Tomate,Parmigiano, Ceniza de Pan</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-23_lsh91x.jpg",
       alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
       price: 12,
     },
@@ -122,7 +110,7 @@ const tapas = {
           <p>Burrata de Puglia 200gr con ensalada de tomate y su salsa</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927333/inverso-madrid/2024-MAY/comida/BURRATA_D_ESTATE.jpg",
       alergenics: ["lactosa", "frutos-secos"],
       price: 14,
     },
@@ -135,7 +123,7 @@ const tapas = {
           <p>Tostas Artesanal con Ricotta,Menta y Calabacin marinados a la Scapece</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927327/inverso-madrid/2024-MAY/comida/BRUSCHETTA_VERDE.jpg",
       alergenics: ["gluten"],
       price: 10.5,
     },
@@ -148,7 +136,7 @@ const tapas = {
           <p>Patatas Fritas con Salsa Alioli,Salsa de Tomate y Orégano fresco</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927322/inverso-madrid/2024-MAY/comida/PATATA_MARINARA.jpg",
       alergenics: ["gluten", "lactosa", "cerdo"],
       price: 8,
     },
@@ -161,7 +149,7 @@ const tapas = {
           <p>Duo de Brioches tostados, rellenos de Salame Napoli,Parmigiano y Confitura de Higos</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927316/inverso-madrid/2024-MAY/comida/PANE_E_SALAME.jpg",
       alergenics: ["pescado", "cerdo", "lactosa"],
       price: 14,
     },
@@ -174,7 +162,7 @@ const tapas = {
           <p>Tabla de Embutidos y Quesos Italianos</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927311/inverso-madrid/2024-MAY/comida/PICNIC.jpg",
       alergenics: ["cerdo", "lactosa"],
       price: 24,
     },
@@ -185,7 +173,7 @@ const dolci = {
   title: "Dolci",
   items: [
     {
-      name: "TiramiSpritz",
+      name: "TIRAMISPRITZ",
       description: (
         <>
           <p>El único Tiramisù borracho de Madrid</p>
@@ -193,7 +181,7 @@ const dolci = {
           <p>Crema al Mascarpone , Savoiardi ,Gel de Aperol</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927305/inverso-madrid/2024-MAY/comida/TIRAMISPRITZ.jpg",
       alergenics: ["alcool", "huevo", "lactosa", "gluten"],
       price: 7,
     },
@@ -206,7 +194,7 @@ const dolci = {
           <p>Crema Mascarpone al Cacao, Savoiardi , Caffè , Azucar moreno</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927299/inverso-madrid/2024-MAY/comida/TIRAMISU_br%C3%BBl%C3%A9.jpg",
       alergenics: ["alcool", "huevo", "gluten"],
       price: 7,
     },
@@ -219,7 +207,7 @@ const dolci = {
           <p>Sorbete Italiano al Limone , Albahaca y Galleta Crujiente</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927288/inverso-madrid/2024-MAY/comida/SORBETTO_AL_LIMONE.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 6.5,
     },
@@ -232,7 +220,7 @@ const dolci = {
           <p>Babà Napolitano , Bagna al Vermouth , Mousse al Pistacchio , Pistacchio crujiente y Cereza Amarena</p>
         </>
       ),
-      img: "",
+      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927294/inverso-madrid/2024-MAY/comida/BABA_VERMOUTH.jpg",
       alergenics: ["gluten", "lactosa"],
       price: 7.5,
     },
@@ -241,60 +229,53 @@ const dolci = {
 
 const cocktails = [
   {
-    title: "Lujuriosos",
+    title: "MACHO",
     price: "10",
-    img: "",
-    description: "‘Apasionadamente fresco ‘",
-    tags: "Vodka | Jarabe de Melocotón | Vainilla | Lemonada",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927259/inverso-madrid/2024-MAY/drink/MACHO.jpg",
+    description: "‘El amor tiene mil formas, pero los hombres necesitan un par‘",
+    tags: "RYE WHISKEY | SWEET VERMOUTH | LIMA | HOJAS DE MENTA",
   },
   {
-    title: "Golosos",
-    price: "10",
-    img: "",
-    description: "‘Excesivamente bueno’",
-    tags: "Ron añejo | Licor 43 | Licor de café | Chocolate Blanco | Nata",
+    title: "CASALINGA",
+    price: "9",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927265/inverso-madrid/2024-MAY/drink/CASALINGA.jpg",
+    description: "‘Casta fuit, lanam fecit, domum servavit.’",
+    tags: "APEROL | PUREA DE MANGO | LEMONADA | ANGOSTURA",
   },
   {
-    title: "Avaros",
+    title: "MODELLA",
+    price: "9",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927254/inverso-madrid/2024-MAY/drink/MODA.jpg",
+    description: "'La moda es lo que sigues cuando no sabes quién eres'",
+    tags: "GIN | MARTINI FIERO | CAMPARI | PERFUME DE ROSA",
+  },
+  {
+    title: "MAMMONE",
+    price: "9",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927249/inverso-madrid/2024-MAY/drink/MAMMONE.jpg",
+    description: " ‘Nunca me casaría con un 'hombre de mamá',No me siento bien con el matrimonio.’",
+    tags: "VERMOUTH ROSSO | NARANJA | JARABE DE FRESA Y FRUTA DE LA PASSION | PEYCHAUD’S BITTER",
+  },
+  {
+    title: "TOMATE LOVER",
+    price: "10",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927376/inverso-madrid/2024-MAY/drink/TOMATE_LOVER.jpg",
+    description: "‘Los italianos solo tienen dos cosas en mente: la otra es el tomate.‘",
+    tags: "VODKA | ZUMO DE TOMATE | JARABE DE PAN TOSTADO| LIMÓN",
+  },
+  {
+    title: "MAFIOSO",
     price: "11",
-    img: "",
-    description: "'No querrás compartirlo con nadie'",
-    tags: "Gin | Saint Germain | Jarabe casero de Pepino | Limon | Prosecco",
-  },
-  {
-    title: "Iracundos",
-    price: "10",
-    img: "",
-    description: " ‘Definitivamente Spicy’",
-    tags: "Tequila infundida con chile | Agave | Limon | Campari",
-  },
-  {
-    title: "Herejes",
-    price: "10",
-    img: "",
-    description: "‘¿Quién dice que la verdad es una?‘",
-    tags: "Maraschino | Vermouth Extra Dry | Bitter Blanco",
-  },
-  {
-    title: "Violentos",
-    price: "11",
-    img: "",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927270/inverso-madrid/2024-MAY/drink/MAFIOSO.jpg",
     description: "‘Sabemos que en el fondo eres un tierno‘",
-    tags: "Whiskey | Frangelico | Jarabe casero | Lemonada | Angostura",
+    tags: "TEQUILA | ZUMO LIMÓN | JARABE DE ALMENDRAS | BITTER NARANJA",
   },
   {
-    title: "Traidores",
+    title: "COFFEE LOVER",
     price: "10",
-    img: "",
-    description: "‘Traidor*,Mentiros*.. otras cualidades?!‘",
-    tags: "Cachaça | Limon | Cordial de Lapsang Souchong y Jengibre",
-  },
-  {
-    title: "Lucifer",
-    price: "10",
-    img: "",
-    description: "‘Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?‘",
-    tags: "Tequila de Miso Rojo | Vino Tinto | Jarabe casero | Limon",
+    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927244/inverso-madrid/2024-MAY/drink/COFFE_LOVER.jpg",
+    description: "‘Sea cual sea tu pregunta, mi respuesta es: café. ¡Buenos días!‘",
+    tags: "RON ANEJO | SAMBUCA | CAFFE ESPRESSO | JARABE CASERO | LICOR DE CAFÉ",
   },
 ];
 

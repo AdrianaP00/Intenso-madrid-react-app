@@ -28,7 +28,7 @@
   font-size: 20px;
   line-height: 58.5px;
   letter-spacing: 0.04em;
-  color: var(--color-golden);
+  color: #8c19e6;
 }
 .app__specialMenu-menu_heading_medium {
   font-family: var(--font-base);

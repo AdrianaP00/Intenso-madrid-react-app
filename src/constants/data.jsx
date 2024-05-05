@@ -2,113 +2,181 @@ const montanare = {
   title: "Not The Classic Pizza",
   items: [
     {
-      name: "La Montanara ‘Classic’",
+      name: "‘LA MONTANARA’",
+      tags: "",
       description: (
         <>
-          <p>con Salsa de Tomate S.Marzano, Parmigiano y Albahaca</p>
-          <br />
-          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p>
+          <p>Pizza Frita con salsa de Tomate San Marzano y Parmigiano</p>
+          {/* <br />
+          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p> */}
         </>
       ),
       alergenics: ["gluten"],
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699832744/inverso-madrid/LA_MONTANARA_pjnepq.jpg",
-      price: 12,
+      img: "",
+      price: 10.5,
     },
     {
-      name: "La Golosa",
-      description: "con Mortadella, Ricotta y Pistacho",
-      tags: "¿Ya te han dicho que lo frito sabe mejor?",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216797/inverso-madrid/owxxrmb3wnl0pekayjpw.jpg",
+      name: "LA PEPPERONI",
+      tags: "",
+      description: "Pizza Frita con crema de Ricotta y Spianata Calabrese",
+      img: "",
       alergenics: ["gluten", "lactosa", "cerdo", "frutos-secos"],
-      price: 14,
+      price: 13,
     },
     {
-      name: "La Pija",
-      tags: "con Salsa de Trufa",
+      name: "LA FRESCA",
+      tags: "",
       description: (
         <>
-          <p>No sé si lo has entendido, pero ¡Lo frito siempre sabe mejor!</p>
-          <br />
-          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p>
+          <p>Pizza Frita con Tomate Beefsteak y Mayonesa de Albahaca</p>
+          {/* <br />
+          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p> */}
         </>
       ),
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138199/d9aa8b0abf49c6632dd76b9b96e0398a_mcivoy.jpg",
+      img: "",
       alergenics: ["gluten", "lactosa"],
-      price: 15,
+      price: 11,
     },
   ],
 };
 
+const caprichos = {
+  title: "¿Un capricho para acompañar tu cerveza?",
+  items: [
+    {
+      name: "UOVO & POMODORO",
+      description: (
+        <>
+          <p>Huevo cocido , Mayonesa de Tomate confit , Pane Guttiau</p>
+          <br />
+          <p>* Suplemento 2.50€</p>
+        </>
+      ),
+      img: "",
+      alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
+      price: 5.5,
+    },
+    {
+      name: "CANNOLO TONNATO",
+      description: (
+        <>
+          <p>Cannolo crujiente relleno de Crema de Atún,Anchoas,Alcaparras y Tomate</p>
+          <br />
+          <p>* Suplemento 2.50€</p>
+        </>
+      ),
+      img: "",
+      alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
+      price: 7.5,
+    },
+    {
+      name: "CROCCHETTA CACIO PEPE & LIMONE",
+      description: (
+        <>
+          <p>Croquetas de Queso Pecorino y Pimienta negra , Gel de limón</p>
+          <br />
+          <p>* Suplemento 1.75€</p>
+        </>
+      ),
+      img: "",
+      alergenics: ["lactosa", "frutos-secos"],
+      price: 7,
+    },
+  ],
+};
 const tapas = {
   title: "Classic Italian Tapas",
   items: [
     {
       name: "Tortilla de Pasta",
-      description: "Sorry Spain, but ‘With Pasta is Better!'",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699832744/inverso-madrid/TORTILLA_DE_PASTA_uxkoac.jpg",
+      description: (
+        <>
+          <p>‘Sorry Spain but with Pasta is Better’</p>
+          <br />
+          <p>Tortilla de Spaghetti y Salame Napoli.</p>
+        </>
+      ),
+      img: "",
       alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
       price: 9,
     },
     {
       name: "Polpette",
-      description: "No! no como las hacía tu abuela!",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-23_lsh91x.jpg",
-      alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
-      price: 13,
-    },
-    {
-      name: "Burrata d’Inverno",
       description: (
         <>
-          <p>Chorreada 100% Italiana?!</p>
+          <p>‘No! no como las hacía tu abuela’</p>
           <br />
-          <p>* Suppl. Embutidos 3€</p>
+          <p>Albóndigas en Salsa Tomate,Parmigiano, Ceniza de Pan</p>
         </>
       ),
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699826071/inverso-madrid/BURRATA_D_INVERNO_srjda2.jpg",
+      img: "",
+      alergenics: ["gluten", "cerdo", "lactosa", "huevo"],
+      price: 12,
+    },
+    {
+      name: "Burrata d’Estate",
+      description: (
+        <>
+          <p>Chorreada 100% Italiana</p>
+          <br />
+          <p>Burrata de Puglia 200gr con ensalada de tomate y su salsa</p>
+        </>
+      ),
+      img: "",
       alergenics: ["lactosa", "frutos-secos"],
       price: 14,
     },
     {
-      name: "Fresella",
+      name: "Bruschetta Verde",
       description: (
         <>
-          <p>Aquí la Tostas se llama Fresella!</p>
+          <p>Crujido Veraniego</p>
           <br />
-          <p>* Suppl. Embutidos 3€ - Suppl Stracciatella 2,5€</p>
+          <p>Tostas Artesanal con Ricotta,Menta y Calabacin marinados a la Scapece</p>
         </>
       ),
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/FRESELLA_qox7og.jpg",
+      img: "",
       alergenics: ["gluten"],
-      price: 12,
+      price: 10.5,
     },
     {
-      name: "Patata Cacio&Pancetta",
-      description: "Frita, Guarra .. ¿qué más quieres?!",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699832743/inverso-madrid/PATATA_CACIO_PANCETTA_ekep7q.webp",
+      name: "Patata marinara",
+      description: (
+        <>
+          <p>‘Perfume de Italia’</p>
+          <br />
+          <p>Patatas Fritas con Salsa Alioli,Salsa de Tomate y Orégano fresco</p>
+        </>
+      ),
+      img: "",
       alergenics: ["gluten", "lactosa", "cerdo"],
       price: 8,
     },
     {
-      name: "Sepia PoP",
-      description: "Mojas y Muerdes!",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216799/inverso-madrid/sm8pydqnjgjyskkrqpuj.jpg",
-      alergenics: ["pescado"],
-      price: 18,
-    },
-    {
-      name: "Marenna 3.0",
-      description: "Fatt na Marenn ca’ Murtadell!’",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/LA_MARENNA_3.0_ldcyvb.jpg",
-      alergenics: ["cerdo"],
+      name: "Pane e salame",
+      description: (
+        <>
+          <p>‘La merienda italiana’</p>
+          <br />
+          <p>Duo de Brioches tostados, rellenos de Salame Napoli,Parmigiano y Confitura de Higos</p>
+        </>
+      ),
+      img: "",
+      alergenics: ["pescado", "cerdo", "lactosa"],
       price: 14,
     },
     {
-      name: "Pic Nic (2pax)",
-      description: "Ven al parque con nosotros?!",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833645/inverso-madrid/comida/PIC_NIC_eizj3t.webp",
+      name: "Pic Nic",
+      description: (
+        <>
+          <p>‘Ven al parque con nosotros’</p>
+          <br />
+          <p>Tabla de Embutidos y Quesos Italianos</p>
+        </>
+      ),
+      img: "",
       alergenics: ["cerdo", "lactosa"],
-      price: 26,
+      price: 24,
     },
   ],
 };
@@ -118,24 +186,55 @@ const dolci = {
   items: [
     {
       name: "TiramiSpritz",
-      description: "El único tiramisú borracho de Madrid",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833646/inverso-madrid/comida/TIRAMISPRITZ_b7tecy.jpg",
+      description: (
+        <>
+          <p>El único Tiramisù borracho de Madrid</p>
+          <br />
+          <p>Crema al Mascarpone , Savoiardi ,Gel de Aperol</p>
+        </>
+      ),
+      img: "",
       alergenics: ["alcool", "huevo", "lactosa", "gluten"],
       price: 7,
     },
     {
-      name: "U’ Siciliano",
-      description: "Crujiente y Goloso",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833772/inverso-madrid/comida/photo_2023-11-13_01-02-25_fz5g3o.jpg",
-      alergenics: ["gluten", "lactosa"],
+      name: "TIRAMISU BRÛLÉ",
+      description: (
+        <>
+          <p>‘Ups, quemamos el postre’</p>
+          <br />
+          <p>Crema Mascarpone al Cacao, Savoiardi , Caffè , Azucar moreno</p>
+        </>
+      ),
+      img: "",
+      alergenics: ["alcool", "huevo", "gluten"],
       price: 7,
     },
     {
-      name: "Affogato al Caffè",
-      description: "Dulce, Italiano, Intenso",
-      img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1699833647/inverso-madrid/comida/Affogato_al_Caff%C3%A8_2_g7yrxj.jpg",
+      name: "SORBETTO AL LIMONE",
+      description: (
+        <>
+          <p>‘Fresco,Aromático,Italiano’</p>
+          <br />
+          <p>Sorbete Italiano al Limone , Albahaca y Galleta Crujiente</p>
+        </>
+      ),
+      img: "",
       alergenics: ["gluten", "lactosa"],
-      price: 7,
+      price: 6.5,
+    },
+    {
+      name: "BABA & VERMOUTH",
+      description: (
+        <>
+          <p>‘Un baba paseando por Madrid’</p>
+          <br />
+          <p>Babà Napolitano , Bagna al Vermouth , Mousse al Pistacchio , Pistacchio crujiente y Cereza Amarena</p>
+        </>
+      ),
+      img: "",
+      alergenics: ["gluten", "lactosa"],
+      price: 7.5,
     },
   ],
 };
@@ -144,56 +243,56 @@ const cocktails = [
   {
     title: "Lujuriosos",
     price: "10",
-    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/5a305a53f28235196d9496e00c820562_xwzowb.jpg",
+    img: "",
     description: "‘Apasionadamente fresco ‘",
     tags: "Vodka | Jarabe de Melocotón | Vainilla | Lemonada",
   },
   {
     title: "Golosos",
     price: "10",
-    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Golosos_hzti9b.jpg",
+    img: "",
     description: "‘Excesivamente bueno’",
     tags: "Ron añejo | Licor 43 | Licor de café | Chocolate Blanco | Nata",
   },
   {
     title: "Avaros",
     price: "11",
-    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138287/Avaros_agkmnf.jpg",
+    img: "",
     description: "'No querrás compartirlo con nadie'",
     tags: "Gin | Saint Germain | Jarabe casero de Pepino | Limon | Prosecco",
   },
   {
     title: "Iracundos",
     price: "10",
-    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Iracundos_crj6qa.jpg",
+    img: "",
     description: " ‘Definitivamente Spicy’",
     tags: "Tequila infundida con chile | Agave | Limon | Campari",
   },
   {
     title: "Herejes",
     price: "10",
-    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Herejes_molayo.jpg",
+    img: "",
     description: "‘¿Quién dice que la verdad es una?‘",
     tags: "Maraschino | Vermouth Extra Dry | Bitter Blanco",
   },
   {
     title: "Violentos",
     price: "11",
-    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138289/Violentos_ozadnp.jpg",
+    img: "",
     description: "‘Sabemos que en el fondo eres un tierno‘",
     tags: "Whiskey | Frangelico | Jarabe casero | Lemonada | Angostura",
   },
   {
     title: "Traidores",
     price: "10",
-    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700138286/Traidores_xe8iw2.jpg",
+    img: "",
     description: "‘Traidor*,Mentiros*.. otras cualidades?!‘",
     tags: "Cachaça | Limon | Cordial de Lapsang Souchong y Jengibre",
   },
   {
     title: "Lucifer",
     price: "10",
-    img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1700141725/6c2062864a7cb81b2b79f14605838096_v2tomb.jpg",
+    img: "",
     description: "‘Una vez fuiste el más hermoso de los ángeles, ¿recuerdas?‘",
     tags: "Tequila de Miso Rojo | Vino Tinto | Jarabe casero | Limon",
   },
@@ -479,6 +578,7 @@ const data = {
   VinosTintos,
   VinosRosado,
   Prosecco,
+  caprichos,
 };
 
 export default data;

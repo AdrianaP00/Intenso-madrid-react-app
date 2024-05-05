@@ -41,6 +41,25 @@ const SpecialMenu = () => (
         </div>
       </div>
 
+      {data.caprichos && (
+        <div className="app__specialMenu-menu_wine  flex__center" id="dolce">
+          <p className="app__specialMenu-menu_heading">{data.caprichos.title}</p>
+          <div className="app__specialMenu_menu_items">
+            {data.caprichos.items.map((capricho, index) => (
+              <MenuItem
+                key={capricho.name + index}
+                name={capricho.name}
+                description={capricho.description}
+                img={capricho.img}
+                price={capricho.price}
+                tags={capricho.tags}
+                alergenics={capricho.alergenics}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
       {data.montanare && (
         <div
           className="app__specialMenu-menu_wine  flex__center"

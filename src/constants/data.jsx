@@ -358,7 +358,7 @@ const bebidas = {
 };
 
 const VinosBlancos = {
-  title: "Vinos blancos",
+  title: "Vinos Blancos",
   items: [
     {
       title: "Grillo DOC Alagna Baglio Baiata",
@@ -423,7 +423,7 @@ const VinosBlancos = {
 };
 
 const VinosRosado = {
-  title: "Vinos rosados",
+  title: "Vinos Rosados",
   items: [
     {
       title: "Bardolino Chiaretto DOC Pasqua, Veneto:",
@@ -458,7 +458,7 @@ const VinosRosado = {
 };
 
 const VinosTintos = {
-  title: "Vinos tintos",
+  title: "Vinos Tintos",
   items: [
     {
       title: "Shiraz Nero d'Avola DOC Solandia",

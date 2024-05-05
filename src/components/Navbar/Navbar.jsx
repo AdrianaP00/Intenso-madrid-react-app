@@ -29,13 +29,14 @@ const Navbar = () => {
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
               <li><a href="#cocktail" onClick={() => setToggleMenu(false)}>Cocktail</a></li>
-              <li><a href="#montanare" onClick={() => setToggleMenu(false)}>Montanare</a></li>
+              <li><a href="#Caprichos" onClick={() => setToggleMenu(false)}>Caprichos</a></li>
               <li><a href="#tapa" onClick={() => setToggleMenu(false)}>Tapas</a></li>
+              <li><a href="#montanare" onClick={() => setToggleMenu(false)}>Montanare</a></li>
               <li><a href="#dolce" onClick={() => setToggleMenu(false)}>Dolce</a></li>
               <li><a href="#bebidas" onClick={() => setToggleMenu(false)}>Bebidas</a></li>
-              <li><a href="#VinosBlancos" onClick={() => setToggleMenu(false)}>VinosBlancos</a></li>
-              <li><a href="#VinosRosado" onClick={() => setToggleMenu(false)}>VinosRosados</a></li>
-              <li><a href="#VinosTintos" onClick={() => setToggleMenu(false)}>VinosTintos</a></li>
+              <li><a href="#VinosBlancos" onClick={() => setToggleMenu(false)}>Vinos Blancos</a></li>
+              <li><a href="#VinosRosado" onClick={() => setToggleMenu(false)}>Vinos Rosados</a></li>
+              <li><a href="#VinosTintos" onClick={() => setToggleMenu(false)}>Vinos Tintos</a></li>
               <li><a href="#Prosecco" onClick={() => setToggleMenu(false)}>Prosecco</a></li>
 
               <li><a href="https://www.localismart.it/intensomadrid/prenota" onClick={() => setToggleMenu(false)}>Reserva una mesa</a></li>

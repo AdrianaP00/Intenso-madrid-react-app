@@ -14,15 +14,15 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 
-const welcome = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699826071/inverso-madrid/BURRATA_D_INVERNO_srjda2.jpg"
-const gericht = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699737731/inverso-madrid/37859666-cee8-49fe-bcab-e7de7b8b0d56_qytihx.png"
-const G = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699737731/inverso-madrid/37859666-cee8-49fe-bcab-e7de7b8b0d56_qytihx.png"
-const knife = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699742194/inverso-madrid/6dfac725-1081-4130-9912-6c9186914a93_wd2nva.png"
-const gallery01 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216796/inverso-madrid/fajcwecyvoifhyoma6wl.jpg"
-const gallery02 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216796/inverso-madrid/bdpiviorygrwndffpcew.jpg"
-const gallery03 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216755/inverso-madrid/rvnzbnxz3nbzgazvr9ct.jpg"
-const gallery04 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216755/inverso-madrid/nrso6d6ixfca57yaikka.jpg"
-const gallery05 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1699216797/inverso-madrid/ck1x7ggix14ajpeutdhn.jpg"
+const welcome = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927254/inverso-madrid/2024-MAY/drink/MODA.jpg"
+const gericht = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714924260/inverso-madrid/misc/Inverso_kiss.png"
+const G = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714924260/inverso-madrid/misc/Inverso_kiss.png"
+const knife = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714924273/inverso-madrid/misc/Snake.png"
+const gallery01 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927305/inverso-madrid/2024-MAY/comida/TIRAMISPRITZ.jpg"
+const gallery02 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927249/inverso-madrid/2024-MAY/drink/MAMMONE.jpg"
+const gallery03 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927299/inverso-madrid/2024-MAY/comida/TIRAMISU_br%C3%BBl%C3%A9.jpg"
+const gallery04 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927254/inverso-madrid/2024-MAY/drink/MODA.jpg"
+const gallery05 = "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927311/inverso-madrid/2024-MAY/comida/PICNIC.jpg"
 
 const images = {
   bg ,

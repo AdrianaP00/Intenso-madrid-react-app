@@ -42,7 +42,7 @@ const SpecialMenu = () => (
       </div>
 
       {data.caprichos && (
-        <div className="app__specialMenu-menu_wine  flex__center" id="dolce">
+        <div className="app__specialMenu-menu_wine  flex__center" id="caprichos">
           <p className="app__specialMenu-menu_heading">{data.caprichos.title}</p>
           <div className="app__specialMenu_menu_items">
             {data.caprichos.items.map((capricho, index) => (
@@ -59,7 +59,8 @@ const SpecialMenu = () => (
           </div>
         </div>
       )}
-
+    </div>
+    <div className="app__specialMenu-menu">
       {data.montanare && (
         <div
           className="app__specialMenu-menu_wine  flex__center"

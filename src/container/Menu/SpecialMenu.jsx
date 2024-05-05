@@ -21,7 +21,7 @@ const SpecialMenu = () => (
         <p className="app__specialMenu-menu_heading">Cocktails</p>
         <p className="app__specialMenu-menu_heading">’ITALIANS DO IT BETTER’</p>
         <p className="app__specialMenu-menu_heading">
-          Cual Italiano Te Sientes ?
+          ¿ Cuál Italiano Te Sientes ?
         </p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (

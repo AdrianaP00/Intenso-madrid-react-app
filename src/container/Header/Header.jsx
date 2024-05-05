@@ -24,7 +24,7 @@ const Header = () => (
               fontWeight: "600",
             }}
           >
-            CUAL ITALIANO TE SIENTES? 🤌
+            ¿CUÁL ITALIANO TE SIENTES? 🤌
           </span>
         </a>
       </p>

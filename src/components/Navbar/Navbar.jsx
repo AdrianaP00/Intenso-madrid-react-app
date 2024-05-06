@@ -46,52 +46,37 @@ const Navbar = () => {
             <ul className="app__navbar-smallscreen_links">
               <li>
                 <a href="#cocktail" onClick={() => setToggleMenu(false)}>
-                  Cocktail
+                COCKTAILS
                 </a>
               </li>
               <li>
                 <a href="#caprichos" onClick={() => setToggleMenu(false)}>
-                  Caprichos
+                  CAPRICHOS
                 </a>
               </li>
               <li>
                 <a href="#tapa" onClick={() => setToggleMenu(false)}>
-                  Tapas
+                  TAPAS
                 </a>
               </li>
               <li>
                 <a href="#montanare" onClick={() => setToggleMenu(false)}>
-                  Montanare
+                  MONTANARE
                 </a>
               </li>
               <li>
                 <a href="#dolce" onClick={() => setToggleMenu(false)}>
-                  Dolce
+                  DOLCE
                 </a>
               </li>
               <li>
                 <a href="#bebidas" onClick={() => setToggleMenu(false)}>
-                  Bebidas
-                </a>
-              </li>
-              <li>
-                <a href="#VinosBlancos" onClick={() => setToggleMenu(false)}>
-                  Vinos Blancos
-                </a>
-              </li>
-              <li>
-                <a href="#VinosRosado" onClick={() => setToggleMenu(false)}>
-                  Vinos Rosados
-                </a>
-              </li>
-              <li>
-                <a href="#VinosTintos" onClick={() => setToggleMenu(false)}>
-                  Vinos Tintos
+                  BEBIDAS
                 </a>
               </li>
               <li>
                 <a href="#Prosecco" onClick={() => setToggleMenu(false)}>
-                  Prosecco
+                  PROSECCO
                 </a>
               </li>
 

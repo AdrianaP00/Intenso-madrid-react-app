@@ -20,7 +20,7 @@ const Header = () => (
             style={{
               margin: "0.6rem 0",
               display: "flex",
-              color: "#8c19e6",
+              color: "#a600ff",
               fontWeight: "600",
             }}
           >

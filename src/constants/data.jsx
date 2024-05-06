@@ -41,7 +41,7 @@ const caprichos = {
         <>
           <p>Huevo cocido , Mayonesa de Tomate confit , Pane Guttiau</p>
           <br />
-          <p>* Suplemento 2.50€</p>
+          <p>* Unidad 2.50€</p>
         </>
       ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927283/inverso-madrid/2024-MAY/comida/UOVO_POMODORO.jpg",
@@ -57,7 +57,7 @@ const caprichos = {
             Tomate
           </p>
           <br />
-          <p>* Suplemento 2.50€</p>
+          <p>* Unidad 2.50€</p>
         </>
       ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927352/inverso-madrid/2024-MAY/comida/CANNOLO_TONNATO.jpg",
@@ -70,7 +70,7 @@ const caprichos = {
         <>
           <p>Croquetas de Queso Pecorino y Pimienta negra , Gel de limón</p>
           <br />
-          <p>* Suplemento 1.75€</p>
+          <p>* Unidad 1.75€</p>
         </>
       ),
       img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927358/inverso-madrid/2024-MAY/comida/CROCCHETTA.jpg",
@@ -173,7 +173,6 @@ const tapas = {
       description: (
         <>
           <p>‘Ven al parque con nosotros’</p>
-          <br />
           <p className="pink-text">Tabla de Embutidos y Quesos Italianos</p>
           <table className="menu-table">
             <tr>

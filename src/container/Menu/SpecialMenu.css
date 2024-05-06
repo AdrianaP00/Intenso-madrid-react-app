@@ -50,10 +50,10 @@
 .app__specialMenu-menu_heading_titles {
   font-family: var(--font-base);
   font-weight: 600;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 58.5px;
   letter-spacing: 0.04em;
-  color: #a600ff;
+  color: var(--color-golden);
 }
 .flex__start {
   display: flex;

@@ -11,21 +11,17 @@ const SpecialMenu = () => (
       <h1 className="headtext__cormorant">Nuestra carta</h1>
     </div>
 
-    <div className="app__specialMenu-menu_img">
-      {/* <img src={im} alt="menu__img" /> */}
-    </div>
+    <div className="app__specialMenu-menu_img"></div>
 
     <div className="app__specialMenu-menu" id="cocktail">
       <div
         className="app__specialMenu-menu_cocktails  flex__start"
         id="cocktail"
       >
-        <p className="app__specialMenu-menu_heading">Cocktails</p>
+        <p className="app__specialMenu-menu_heading_titles">COCKTAILS</p>
+        <p className="app__specialMenu-menu_heading">’ITALIANS DO IT BETTER’</p>
         <p className="app__specialMenu-menu_heading">
-          ’La senda que lleva al Paraíso
-        </p>
-        <p className="app__specialMenu-menu_heading">
-          comienza en el Infierno’.
+          ¿ Cuál Italiano Te Sientes ?
         </p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
@@ -39,8 +35,38 @@ const SpecialMenu = () => (
             />
           ))}
         </div>
+        <p className="app__specialMenu-menu_heading_medium">
+          ’TE APETECE ALGO DIFERENTE ?! PREGUNTAS POR NUESTROS COCKTAILS SIN
+          ALCOHOL y POR LOS CLÁSICOS.’.
+        </p>
+        <p className="app__specialMenu-menu_heading_mini">
+          Ningún actor fue maltratado durante la sesión fotográfica.
+        </p>
       </div>
 
+      {data.caprichos && (
+        <div className="app__specialMenu-menu_wine flex__center" id="caprichos">
+        <p className="app__specialMenu-menu_heading_titles">Caprichos</p>
+          <p className="app__specialMenu-menu_heading">
+            {data.caprichos.title}
+          </p>
+          <div className="app__specialMenu_menu_items">
+            {data.caprichos.items.map((capricho, index) => (
+              <MenuItem
+                key={capricho.name + index}
+                name={capricho.name}
+                description={capricho.description}
+                img={capricho.img}
+                price={capricho.price}
+                tags={capricho.tags}
+                alergenics={capricho.alergenics}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+    <div className="app__specialMenu-menu">
       {data.montanare && (
         <div
           className="app__specialMenu-menu_wine  flex__center"
@@ -72,7 +98,7 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_cocktails  flex__center"
           id="tapa"
         >
-          <p className="app__specialMenu-menu_heading">{data.tapas.title}</p>
+          <p className="app__specialMenu-menu_heading_titles">TAPAS</p>
           <div className="app__specialMenu_menu_items">
             {data.tapas.items.map((tapa, index) => (
               <MenuItem
@@ -90,7 +116,7 @@ const SpecialMenu = () => (
       )}
       {data.dolci && (
         <div className="app__specialMenu-menu_wine  flex__center" id="dolce">
-          <p className="app__specialMenu-menu_heading">{data.dolci.title}</p>
+          <p className="app__specialMenu-menu_heading_titles">DOLCI</p>
           <div className="app__specialMenu_menu_items">
             {data.dolci.items.map((dolce, index) => (
               <MenuItem
@@ -114,7 +140,7 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_cocktails  flex__center"
           id="bebidas"
         >
-          <p className="app__specialMenu-menu_heading">{data.bebidas.title}</p>
+          <p className="app__specialMenu-menu_heading_titles">AGUA Y CERVEZA</p>
           <div className="app__specialMenu_menu_items">
             {data.bebidas.items.map((bebida, index) => (
               <MenuItem
@@ -132,8 +158,8 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_wine  flex__center"
           id="VinosBlancos"
         >
-          <p className="app__specialMenu-menu_heading">
-            {data.VinosBlancos.title}
+          <p className="app__specialMenu-menu_heading_titles">
+            VINOS
           </p>
           <div className="app__specialMenu_menu_items">
             {data.VinosBlancos.items.map((vino, index) => (
@@ -155,9 +181,6 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_cocktails  flex__center"
           id="VinosRosado"
         >
-          <p className="app__specialMenu-menu_heading">
-            {data.VinosRosado.title}
-          </p>
           <div className="app__specialMenu_menu_items">
             {data.VinosRosado.items.map((VinosRosado, index) => (
               <MenuItem
@@ -175,9 +198,6 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_wine  flex__center"
           id="VinosTintos"
         >
-          <p className="app__specialMenu-menu_heading">
-            {data.VinosTintos.title}
-          </p>
           <div className="app__specialMenu_menu_items">
             {data.VinosTintos.items.map((VinosTintos, index) => (
               <MenuItem
@@ -198,7 +218,7 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_cocktails  flex__center"
           id="Prosecco"
         >
-          <p className="app__specialMenu-menu_heading">{data.Prosecco.title}</p>
+          <p className="app__specialMenu-menu_heading_titles">PROSECCO & CHAMPAGNE</p>
           <div className="app__specialMenu_menu_items">
             {data.Prosecco.items.map((Prosecco, index) => (
               <MenuItem

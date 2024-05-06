@@ -40,8 +40,8 @@
 
 .app__menuitem-dash {
     width: 90px;
-    height: 1px;
-    background: var(--color-golden);
+    height: 2px;
+    background:#a600ff;
     margin: 0 1rem;
 }
 

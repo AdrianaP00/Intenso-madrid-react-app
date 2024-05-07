@@ -301,7 +301,7 @@ const cocktails = [
     price: "9",
     img: "https://res.cloudinary.com/dlybwinmd/image/upload/v1714927249/inverso-madrid/2024-MAY/drink/MAMMONE.jpg",
     description:
-      " ‘Nunca me casaría con un 'hombre de mamá',No me siento bien con el matrimonio.’",
+      " ‘Nunca me casaría con un 'hombre de mamá',No me siento bien con el maDrimonio.’",
     tags: "VERMOUTH ROSSO | NARANJA | JARABE DE FRESA Y FRUTA DE LA PASSION | PEYCHAUD’S BITTER",
   },
   {

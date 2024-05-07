@@ -72,7 +72,7 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_wine  flex__center"
           id="montanare"
         >
-          <p className="app__specialMenu-menu_heading">
+          <p className="app__specialMenu-menu_heading_title">
             {data.montanare.title}
           </p>
           <div className="app__specialMenu_menu_items">

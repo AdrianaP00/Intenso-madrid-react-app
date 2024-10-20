@@ -23,7 +23,6 @@ const SpecialMenu = () => (
         id="cocktail"
       >
         <p className="app__specialMenu-menu_heading_titles">COCKTAILS</p>
-        <p className="app__specialMenu-menu_heading">’ITALIANS DO IT BETTER’</p>
         <p className="app__specialMenu-menu_heading">
           {data.cocktails[0].menu_section.Title}
         </p>
@@ -36,6 +35,7 @@ const SpecialMenu = () => (
               img={cocktail.Image.formats.small.url}
               description={cocktail.Description}
               ingredients={cocktail.Ingredients}
+              allergenics={cocktail.alergenics}
             />
           ))}
         </div>
@@ -62,7 +62,7 @@ const SpecialMenu = () => (
                 img={capricho.Image.formats.small.url}
                 price={capricho.price}
                 ingredients={capricho.Ingredients}
-                alergenics={capricho.alergenics}
+                allergenics={capricho.alergenics}
               />
             ))}
           </div>
@@ -87,7 +87,7 @@ const SpecialMenu = () => (
                 img={montanara.Image.formats.small.url}
                 price={montanara.price}
                 ingredients={montanara.Ingredients}
-                allergenics={montanara.allergenics}
+                allergenics={montanara.alergenics}
               />
             ))}
           </div>
@@ -112,7 +112,7 @@ const SpecialMenu = () => (
                 img={tapa.Image.formats.small.url}
                 price={tapa.price}
                 ingredients={tapa.Ingredients}
-                allergenics={tapa.allergenics}
+                allergenics={tapa.alergenics}
               />
             ))}
           </div>
@@ -132,7 +132,7 @@ const SpecialMenu = () => (
                 img={dolce.Image.formats.small.url}
                 price={dolce.price}
                 ingredients={dolce.Ingredients}
-                allergenics={dolce.allergenics}
+                allergenics={dolce.alergenics}
               />
             ))}
           </div>
@@ -156,6 +156,7 @@ const SpecialMenu = () => (
                 name={bebida.Name}
                 price={bebida.price}
                 description={bebida.Description}
+                allergenics={bebida.alergenics}
               />
             ))}
           </div>
@@ -167,9 +168,7 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_wine  flex__center"
           id="VinosBlancos"
         >
-          <p className="app__specialMenu-menu_heading_titles">
-            Vinos
-          </p>
+          <p className="app__specialMenu-menu_heading_titles">Vinos</p>
           <div className="app__specialMenu_menu_items">
             {data.vinosBlancos.map((vino, index) => (
               <MenuItem
@@ -177,6 +176,7 @@ const SpecialMenu = () => (
                 name={vino.Name}
                 price={vino.price}
                 description={vino.Description}
+                allergenics={vino.alergenics}
               />
             ))}
           </div>
@@ -197,6 +197,7 @@ const SpecialMenu = () => (
                 name={vinoRosado.Name}
                 price={vinoRosado.price}
                 description={vinoRosado.Description}
+                allergenics={vinoRosado.alergenics}
               />
             ))}
           </div>
@@ -214,6 +215,7 @@ const SpecialMenu = () => (
                 name={vinosTintos.Name}
                 price={vinosTintos.price}
                 description={vinosTintos.Description}
+                allergenics={vinosTintos.alergenics}
               />
             ))}
           </div>
@@ -237,6 +239,7 @@ const SpecialMenu = () => (
                 name={prosecco.Name}
                 price={prosecco.price}
                 description={prosecco.Description}
+                allergenics={prosecco.alergenics}
               />
             ))}
           </div>

@@ -5,7 +5,11 @@ import typeLogo from "../../constants/logos";
 
 const getTagsImg = (key, allergenics) =>
   Object.values(allergenics).map((allergenic) => (
-    <img id={key + allergenic} src={typeLogo.get(allergenic)} alt={allergenic} />
+    <img
+      id={key + allergenic}
+      src={typeLogo.get(allergenic.Name)}
+      alt={allergenic}
+    />
   ));
 
 const MenuItem = ({

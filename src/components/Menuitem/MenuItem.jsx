@@ -3,12 +3,20 @@ import React from "react";
 import "./MenuItem.css";
 import typeLogo from "../../constants/logos";
 
-const getTagsImg = (key, alergenics) =>
-  Object.values(alergenics).map((alergenic) => (
-    <img id={key + alergenic} src={typeLogo.get(alergenic)} alt={alergenic} />
+const getTagsImg = (key, allergenics) =>
+  Object.values(allergenics).map((allergenic) => (
+    <img id={key + allergenic} src={typeLogo.get(allergenic)} alt={allergenic} />
   ));
 
-const MenuItem = ({ key, name, description, img, price, tags, alergenics }) => (
+const MenuItem = ({
+  key,
+  name,
+  description,
+  img,
+  price,
+  ingredients,
+  allergenics,
+}) => (
   <div className="app__menuitem ">
     <div className="app__menuitem-head">
       <div className="app__menuitem-name">
@@ -17,14 +25,26 @@ const MenuItem = ({ key, name, description, img, price, tags, alergenics }) => (
             <img id={key} src={img} alt={name} />
           </div>
         )}
-        <p className="p__cormorant" style={{ color: "#DCCA87" }}>
-          {name}
-        </p>
+        {name && (
+          <p className="p__cormorant" style={{ color: "#DCCA87" }}>
+            {name}
+          </p>
+        )}
       </div>
-      <div className="app__menuitem-dash" />
-      <div className="app__menuitem-price">
-        <p className="p__cormorant">{price}</p>
-      </div>
+      {price &&
+        price.map((pr) => (
+          <>
+            <div className="app__menuitem-dash" />
+            <div className="app__menuitem-price">
+              <p className="p__cormorant">{pr.Value}</p>
+              {pr.Unit !== null ? (
+                <>
+                  <p className="p__cormorant"> {pr.Unit}</p>
+                </>
+              ) : null}
+            </div>
+          </>
+        ))}
     </div>
     {description && (
       <div className="app__menuitem-sub">
@@ -33,17 +53,17 @@ const MenuItem = ({ key, name, description, img, price, tags, alergenics }) => (
         </p>
       </div>
     )}
-    {tags && (
+    {ingredients && (
       <div className="app__menuitem-sub">
         <p className="p__opensans" style={{ color: "#AAAAAA" }}>
-          {tags}
+          {ingredients}
         </p>
       </div>
     )}
 
-    {alergenics && (
+    {allergenics && (
       <div className="app__menuitem-alergenics" style={{ color: "#AAAAAA" }}>
-        {getTagsImg(key, alergenics)}
+        {getTagsImg(key, allergenics)}
       </div>
     )}
   </div>

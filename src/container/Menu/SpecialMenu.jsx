@@ -1,8 +1,12 @@
 import React from "react";
 
 import { SubHeading, MenuItem } from "../../components";
-import { data } from "../../constants";
 import "./SpecialMenu.css";
+import fetchAllData from "../../constants/data";
+
+const data = await fetchAllData();
+
+console.log(data);
 
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center" id="carta">
@@ -21,17 +25,17 @@ const SpecialMenu = () => (
         <p className="app__specialMenu-menu_heading_titles">COCKTAILS</p>
         <p className="app__specialMenu-menu_heading">’ITALIANS DO IT BETTER’</p>
         <p className="app__specialMenu-menu_heading">
-          ¿ Cuál Italiano Te Sientes ?
+          {data.cocktails[0].menu_section.Title}
         </p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem
-              key={cocktail.title + index}
-              name={cocktail.title}
+              key={cocktail.Name + index}
+              name={cocktail.Name}
               price={cocktail.price}
-              img={cocktail.img}
-              description={cocktail.description}
-              tags={cocktail.tags}
+              img={cocktail.Image.formats.small.url}
+              description={cocktail.Description}
+              ingredients={cocktail.Ingredients}
             />
           ))}
         </div>
@@ -43,22 +47,21 @@ const SpecialMenu = () => (
           Ningún actor fue maltratado durante la sesión fotográfica.
         </p>
       </div>
-
       {data.caprichos && (
         <div className="app__specialMenu-menu_wine flex__center" id="caprichos">
-        <p className="app__specialMenu-menu_heading_titles">Caprichos</p>
+          <p className="app__specialMenu-menu_heading_titles">Caprichos</p>
           <p className="app__specialMenu-menu_heading">
-            {data.caprichos.title}
+            {data.caprichos[0].menu_section.Title}
           </p>
           <div className="app__specialMenu_menu_items">
-            {data.caprichos.items.map((capricho, index) => (
+            {data.caprichos.map((capricho, index) => (
               <MenuItem
-                key={capricho.name + index}
-                name={capricho.name}
-                description={capricho.description}
-                img={capricho.img}
+                key={capricho.Name + index}
+                name={capricho.Name}
+                description={capricho.Description}
+                img={capricho.Image.formats.small.url}
                 price={capricho.price}
-                tags={capricho.tags}
+                ingredients={capricho.Ingredients}
                 alergenics={capricho.alergenics}
               />
             ))}
@@ -73,42 +76,43 @@ const SpecialMenu = () => (
           id="montanare"
         >
           <p className="app__specialMenu-menu_heading_title">
-            {data.montanare.title}
+            {data.montanare[0].menu_section.Title}
           </p>
           <div className="app__specialMenu_menu_items">
-            {data.montanare.items.map((montanara, index) => (
+            {data.montanare.map((montanara, index) => (
               <MenuItem
-                key={montanara.name + index}
-                name={montanara.name}
-                description={montanara.description}
-                img={montanara.img}
+                key={montanara.Name + index}
+                name={montanara.Name}
+                description={montanara.Description}
+                img={montanara.Image.formats.small.url}
                 price={montanara.price}
-                tags={montanara.tags}
-                alergenics={montanara.alergenics}
+                ingredients={montanara.Ingredients}
+                allergenics={montanara.allergenics}
               />
             ))}
           </div>
         </div>
       )}
     </div>
-
     <div className="app__specialMenu-menu">
       {data.tapas && (
         <div
           className="app__specialMenu-menu_cocktails  flex__center"
           id="tapa"
         >
-          <p className="app__specialMenu-menu_heading_titles">TAPAS</p>
+          <p className="app__specialMenu-menu_heading_titles">
+            {data.tapas[0].menu_section.Title}
+          </p>
           <div className="app__specialMenu_menu_items">
-            {data.tapas.items.map((tapa, index) => (
+            {data.tapas.map((tapa, index) => (
               <MenuItem
-                key={tapa.name + index}
-                name={tapa.name}
-                description={tapa.description}
-                img={tapa.img}
+                key={tapa.Name + index}
+                name={tapa.Name}
+                description={tapa.Description}
+                img={tapa.Image.formats.small.url}
                 price={tapa.price}
-                tags={tapa.tags}
-                alergenics={tapa.alergenics}
+                ingredients={tapa.Ingredients}
+                allergenics={tapa.allergenics}
               />
             ))}
           </div>
@@ -116,17 +120,19 @@ const SpecialMenu = () => (
       )}
       {data.dolci && (
         <div className="app__specialMenu-menu_wine  flex__center" id="dolce">
-          <p className="app__specialMenu-menu_heading_titles">DOLCI</p>
+          <p className="app__specialMenu-menu_heading_titles">
+            {data.dolci[0].menu_section.Title}
+          </p>
           <div className="app__specialMenu_menu_items">
-            {data.dolci.items.map((dolce, index) => (
+            {data.dolci.map((dolce, index) => (
               <MenuItem
-                key={dolce.name + index}
-                name={dolce.name}
-                description={dolce.description}
-                img={dolce.img}
+                key={dolce.Name + index}
+                name={dolce.Name}
+                description={dolce.Description}
+                img={dolce.Image.formats.small.url}
                 price={dolce.price}
-                tags={dolce.tags}
-                alergenics={dolce.alergenics}
+                ingredients={dolce.Ingredients}
+                allergenics={dolce.allergenics}
               />
             ))}
           </div>
@@ -140,34 +146,37 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_cocktails  flex__center"
           id="bebidas"
         >
-          <p className="app__specialMenu-menu_heading_titles">AGUA Y CERVEZA</p>
+          <p className="app__specialMenu-menu_heading_titles">
+            {data.bebidas[0].menu_section.Title}
+          </p>
           <div className="app__specialMenu_menu_items">
-            {data.bebidas.items.map((bebida, index) => (
+            {data.bebidas.map((bebida, index) => (
               <MenuItem
-                key={bebida.title + index}
-                name={bebida.title}
+                key={bebida.Name + index}
+                name={bebida.Name}
                 price={bebida.price}
-                description={bebida.description}
+                description={bebida.Description}
               />
             ))}
           </div>
         </div>
       )}
-      {data.VinosBlancos && (
+
+      {data.vinosBlancos && (
         <div
           className="app__specialMenu-menu_wine  flex__center"
           id="VinosBlancos"
         >
           <p className="app__specialMenu-menu_heading_titles">
-            VINOS
+            Vinos
           </p>
           <div className="app__specialMenu_menu_items">
-            {data.VinosBlancos.items.map((vino, index) => (
+            {data.vinosBlancos.map((vino, index) => (
               <MenuItem
-                key={vino.title + index}
-                name={vino.title}
+                key={vino.Name + index}
+                name={vino.Name}
                 price={vino.price}
-                description={vino.description}
+                description={vino.Description}
               />
             ))}
           </div>
@@ -176,35 +185,35 @@ const SpecialMenu = () => (
     </div>
 
     <div className="app__specialMenu-menu">
-      {data.VinosRosado && (
+      {data.vinosRosado && (
         <div
           className="app__specialMenu-menu_cocktails  flex__center"
           id="VinosRosado"
         >
           <div className="app__specialMenu_menu_items">
-            {data.VinosRosado.items.map((VinosRosado, index) => (
+            {data.vinosRosado.map((vinoRosado, index) => (
               <MenuItem
-                key={VinosRosado.title + index}
-                name={VinosRosado.title}
-                price={VinosRosado.price}
-                description={VinosRosado.description}
+                key={vinoRosado.Name + index}
+                name={vinoRosado.Name}
+                price={vinoRosado.price}
+                description={vinoRosado.Description}
               />
             ))}
           </div>
         </div>
       )}
-      {data.VinosTintos && (
+      {data.vinosTintos && (
         <div
           className="app__specialMenu-menu_wine  flex__center"
           id="VinosTintos"
         >
           <div className="app__specialMenu_menu_items">
-            {data.VinosTintos.items.map((VinosTintos, index) => (
+            {data.vinosTintos.map((vinosTintos, index) => (
               <MenuItem
-                key={VinosTintos.title + index}
-                name={VinosTintos.title}
-                price={VinosTintos.price}
-                description={VinosTintos.description}
+                key={vinosTintos.Name + index}
+                name={vinosTintos.Name}
+                price={vinosTintos.price}
+                description={vinosTintos.Description}
               />
             ))}
           </div>
@@ -213,19 +222,21 @@ const SpecialMenu = () => (
     </div>
 
     <div className="app__specialMenu-menu">
-      {data.Prosecco && (
+      {data.prosecco && (
         <div
           className="app__specialMenu-menu_cocktails  flex__center"
           id="Prosecco"
         >
-          <p className="app__specialMenu-menu_heading_titles">PROSECCO & CHAMPAGNE</p>
+          <p className="app__specialMenu-menu_heading_titles">
+            {data.prosecco[0].menu_section.Title}
+          </p>
           <div className="app__specialMenu_menu_items">
-            {data.Prosecco.items.map((Prosecco, index) => (
+            {data.prosecco.map((prosecco, index) => (
               <MenuItem
-                key={Prosecco.title + index}
-                name={Prosecco.title}
-                price={Prosecco.price}
-                description={Prosecco.description}
+                key={prosecco.Name + index}
+                name={prosecco.Name}
+                price={prosecco.price}
+                description={prosecco.Description}
               />
             ))}
           </div>

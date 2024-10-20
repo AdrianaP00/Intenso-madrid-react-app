@@ -6,8 +6,6 @@ import fetchAllData from "../../constants/data";
 
 const data = await fetchAllData();
 
-console.log(data);
-
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center" id="carta">
     <div className="app__specialMenu-title">

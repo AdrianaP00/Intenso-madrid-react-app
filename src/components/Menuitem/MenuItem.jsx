@@ -35,20 +35,18 @@ const MenuItem = ({
           </p>
         )}
       </div>
-      {price &&
-        price.map((pr) => (
-          <>
-            <div className="app__menuitem-dash" />
-            <div className="app__menuitem-price">
-              <p className="p__cormorant">{pr.Value}</p>
-              {pr.Unit !== null ? (
-                <>
-                  <p className="p__cormorant"> {pr.Unit}</p>
-                </>
-              ) : null}
-            </div>
-          </>
-        ))}
+      <div className="app__menuitem-price-box">
+        {price &&
+          price.map((pr) => (
+            <>
+              <div className="app__menuitem-price">
+                <p className="p__cormorant">{pr.Value}</p>
+                {pr.Unit !== null && <p className="p__cormorant">/{pr.Unit}</p>}
+              </div>
+              <div className="app__menuitem-dash" />
+            </>
+          ))}
+      </div>
     </div>
     {description && (
       <div className="app__menuitem-sub">

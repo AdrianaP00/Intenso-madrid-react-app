@@ -5,7 +5,11 @@ const fetchDataFromAPI = async () => {
     const response = await axios.get(
       "https://inverso-backend.onrender.com/api/items?populate=*&pagination[pageSize]=100"
     );
-    return response.data.data.reduce((acc, item) => {
+
+    // Sort items based on position
+    const sortedItems = response.data.data.sort((a, b) => a.Position - b.Position);
+
+    return sortedItems.reduce((acc, item) => {
       const sectionKey = item.menu_section.key;
 
       // If the sectionKey is not in the accumulator, initialize an array for it

@@ -7,19 +7,22 @@ const fetchDataFromAPI = async () => {
     );
 
     // Sort items based on position
-    const sortedItems = response.data.data.sort((a, b) => a.Position - b.Position);
+    const sortedItems = response.data.data.sort(
+      (a, b) => a.Position - b.Position
+    );
 
     return sortedItems.reduce((acc, item) => {
-      const sectionKey = item.menu_section.key;
+      if (item.menu_section) {
+        const sectionKey = item.menu_section.key;
 
-      // If the sectionKey is not in the accumulator, initialize an array for it
-      if (!acc[sectionKey]) {
-        acc[sectionKey] = [];
+        // If the sectionKey is not in the accumulator, initialize an array for it
+        if (!acc[sectionKey]) {
+          acc[sectionKey] = [];
+        }
+
+        // Push the current item into the correct section array
+        acc[sectionKey].push(item);
       }
-
-      // Push the current item into the correct section array
-      acc[sectionKey].push(item);
-
       return acc;
     }, {});
   } catch (error) {

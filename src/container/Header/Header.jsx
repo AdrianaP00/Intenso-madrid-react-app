@@ -1,19 +1,23 @@
 import React from "react";
 
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
 import "./Header.css";
+import fetchMainSectionData from "../../constants/main-section-data";
+
+const data = await fetchMainSectionData();
 
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
-      <SubHeading title="Italianidad en estado puro! " />
-      <h1 className="app__header-h1">¿Que es Inverso?</h1>
+      <SubHeading title={data.Claim} />
+      <h1 className="app__header-h1">{data.Title}</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
-        El encuentro entre Tapeo Italiano y Cocktails d’Autor da vida a Inverso.{" "}
-        <br /> Un proyecto que nace del deseo de dar a conocer una Italia
-        diferente, joven, moderna pero siempre auténtica. <br /> Lo haremos
-        provocando, desafiando y jugando con los clichés del italiano.
+        {data.Description.split("\n").map((line, index) => (
+          <React.Fragment key={index}>
+            {line}
+            {index < data.Description.split("\n").length - 1 && <br />}
+          </React.Fragment>
+        ))}
         <a href="#cocktail">
           <span
             className="p__opensans wrap"
@@ -24,7 +28,7 @@ const Header = () => (
               fontWeight: "600",
             }}
           >
-            ¿CUÁL ITALIANO TE SIENTES? 🤌
+            {data.CallToAction} 🤌
           </span>
         </a>
       </p>
@@ -42,7 +46,7 @@ const Header = () => (
       data-aos-duration="1500"
       className="app__wrapper_img"
     >
-      <img src={images.welcome} alt="header_img" />
+      <img src={data.Image.formats.small.url} alt="header_img" />
     </div>
   </div>
 );

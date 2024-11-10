@@ -2,7 +2,7 @@ import React from "react";
 
 import { SubHeading, MenuItem } from "../../components";
 import "./SpecialMenu.css";
-import fetchAllData from "../../constants/data";
+import fetchAllData from "../../constants/menu-data";
 
 const data = await fetchAllData();
 

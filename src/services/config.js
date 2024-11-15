@@ -1,0 +1,1 @@
+export const API_URL = "https://inverso-backend.onrender.com/api";

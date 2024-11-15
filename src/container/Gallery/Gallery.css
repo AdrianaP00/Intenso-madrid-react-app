@@ -3,6 +3,7 @@
 
     background: var(--color-black);
     padding: 4rem 0 4rem 6rem;
+    content-visibility: auto;
 }
 
 .app__gallery-content {

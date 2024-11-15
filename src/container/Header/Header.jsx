@@ -2,9 +2,9 @@ import React from "react";
 
 import { SubHeading } from "../../components";
 import "./Header.css";
-import fetchMainSectionData from "../../constants/main-section-data";
+import getSection from "../../services/getSection";
 
-const data = await fetchMainSectionData();
+const data = await getSection("main-section");
 
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">

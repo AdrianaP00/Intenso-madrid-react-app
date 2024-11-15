@@ -36,7 +36,7 @@ const Gallery = () => {
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
             >
-              <img src={image.formats.small.url} alt="gallery_image" />
+              <img src={image.formats.small.url} alt="gallery_image" loading="lazy"/>
               <BsInstagram
                 className="gallery__image-icon"
                 onClick={() =>

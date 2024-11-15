@@ -21,9 +21,9 @@ const Footer = () => {
       </div>
 
         <div className="app__footer-links_logo">
-          <img src={images.gericht} alt="footer_logo" />
+          <img src={images.gericht} alt="footer_logo" loading="lazy"/>
           <p className="p__opensans">The italian that you need</p>
-          <img src={images.spoon} alt="spoon_logo" className="spoon__img" style={{ marginTop: 15 }} />
+          <img src={images.spoon} alt="spoon_logo" className="spoon__img" style={{ marginTop: 15 }} loading="lazy"/>
           <div className="app__footer-links_icons">
             <a href='https://www.instagram.com/inverso.madrid/'><FiInstagram /></a>
           </div>

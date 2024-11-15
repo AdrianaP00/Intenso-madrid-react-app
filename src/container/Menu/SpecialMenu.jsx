@@ -27,7 +27,7 @@ const SpecialMenu = () => (
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem
-              key={cocktail.Name + index}
+              key={index}
               name={cocktail.Name}
               price={cocktail.price}
               img={cocktail.Image.formats.small.url}
@@ -250,7 +250,7 @@ const SpecialMenu = () => (
       <button type="button" className="custom__button">View More</button>
     </div> */
   /* <div className="app__specialMenu-menu_img">
-        <img src={images.qr} alt="menu__img" />
+        <img src={images.qr} alt="menu__img" loading="lazy"/>
       </div>
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Scan this code for menu</p>

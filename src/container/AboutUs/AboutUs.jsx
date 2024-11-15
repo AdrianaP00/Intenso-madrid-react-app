@@ -14,7 +14,7 @@ const AboutUs = () => (
      data-aos-offset="0"
 
      >
-      <img src={images.G} alt="G_overlay" />
+      <img src={images.G} alt="G_overlay" loading="lazy"/>
     </div>
 
     <div className="app__aboutus-content flex__center">
@@ -25,7 +25,7 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-        <img src={data.image.formats.small.url} alt="about_knife" />
+        <img src={data.image.formats.small.url} alt="about_knife" loading="lazy"/>
       </div>
 
       <div className="app__aboutus-content_history">

@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app__logo" />
+        <img src={images.gericht} alt="app__logo" loading="lazy" />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -46,7 +46,7 @@ const Navbar = () => {
             <ul className="app__navbar-smallscreen_links">
               <li>
                 <a href="#cocktail" onClick={() => setToggleMenu(false)}>
-                COCKTAILS
+                  COCKTAILS
                 </a>
               </li>
               <li>

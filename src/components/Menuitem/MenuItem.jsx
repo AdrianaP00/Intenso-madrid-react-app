@@ -3,17 +3,17 @@ import React from "react";
 import "./MenuItem.css";
 import typeLogo from "../../constants/logos";
 
-const getTagsImg = (key, allergenics) =>
-  Object.values(allergenics).map((allergenic) => (
+const getTagsImg = (allergenics) =>
+  Object.values(allergenics).map((allergenic, index) => (
     <img
-      id={key + allergenic}
+      id={index}
       src={typeLogo.get(allergenic.Name)}
       alt={allergenic}
+      loading="lazy"
     />
   ));
 
 const MenuItem = ({
-  key,
   name,
   description,
   img,
@@ -26,7 +26,7 @@ const MenuItem = ({
       <div className="app__menuitem-name">
         {img && (
           <div className="app__menuitem-sub">
-            <img id={key} src={img} alt={name} />
+            <img src={img} alt={name} loading="lazy" />
           </div>
         )}
         {name && (
@@ -65,7 +65,7 @@ const MenuItem = ({
 
     {allergenics && (
       <div className="app__menuitem-alergenics" style={{ color: "#AAAAAA" }}>
-        {getTagsImg(key, allergenics)}
+        {getTagsImg(allergenics)}
       </div>
     )}
   </div>

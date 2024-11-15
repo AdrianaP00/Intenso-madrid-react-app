@@ -46,7 +46,7 @@ const Header = () => (
       data-aos-duration="1500"
       className="app__wrapper_img"
     >
-      <img src={data.Image.formats.small.url} alt="header_img" />
+      <img src={data.Image.formats.small.url} alt="header_img" loading="lazy"/>
     </div>
   </div>
 );

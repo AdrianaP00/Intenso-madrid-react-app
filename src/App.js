@@ -19,7 +19,6 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Gallery />
-
     <Footer />
 
     <SpeedInsights />

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { SubHeading, MenuItem } from "../../components";
+import { MenuItem } from "../../components";
 import "./SpecialMenu.css";
 import fetchAllData from "../../constants/menu-data";
 
@@ -73,7 +73,7 @@ const SpecialMenu = () => (
           className="app__specialMenu-menu_wine  flex__center"
           id="montanare"
         >
-          <p className="app__specialMenu-menu_heading_title">
+          <p className="app__specialMenu-menu_heading_titles">
             {data.montanare[0].menu_section.Title}
           </p>
           <div className="app__specialMenu_menu_items">

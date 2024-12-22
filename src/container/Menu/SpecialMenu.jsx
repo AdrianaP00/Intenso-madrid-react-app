@@ -9,7 +9,7 @@ const data = await fetchAllData();
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center" id="carta">
     <div className="app__specialMenu-title">
-      <SubHeading title="Savor the moment with our specialty drinks" />
+      {/* <SubHeading title="Savor the moment with our specialty drinks" /> */}
       <h1 className="headtext__cormorant">Nuestra carta</h1>
     </div>
 

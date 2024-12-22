@@ -41,9 +41,9 @@ const SpecialMenu = () => (
           ’TE APETECE ALGO DIFERENTE ?! PREGUNTAS POR NUESTROS COCKTAILS SIN
           ALCOHOL y POR LOS CLÁSICOS.’.
         </p>
-        <p className="app__specialMenu-menu_heading_mini">
+        {/* <p className="app__specialMenu-menu_heading_mini">
           Ningún actor fue maltratado durante la sesión fotográfica.
-        </p>
+        </p> */}
       </div>
       {data.caprichos && (
         <div className="app__specialMenu-menu_wine flex__center" id="caprichos">
